@@ -1,0 +1,7 @@
+añadir put tarjeta, solo puede editar el usuario propio la descripcion y el admin
+
+añadir test para comprobar campos vacíos, setters
+
+añadir excepciones para todos los campos y en los setters como en email, telefono etc
+
+añadir servicio de verificación de email

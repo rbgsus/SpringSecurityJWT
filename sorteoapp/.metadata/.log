@@ -1,0 +1,2048 @@
+!SESSION 2025-04-13 22:50:46.890 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-13 22:50:48.820
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-13 22:51:07.240
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-13 22:51:07.835
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-13 22:51:07.835
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-13 22:51:08.150
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-13 22:51:08.150
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-13 22:51:11.052
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-13 22:51:12.241
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-15 19:24:38.424 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\rbgsu\Documents\sorteoapp\sorteoapp
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 19:24:40.621
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-15 19:24:41.865
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 19:24:42.560
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 19:24:42.560
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-15 19:24:42.989
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-15 19:24:42.989
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-15 19:24:45.922
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-15 19:24:47.767
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-18 18:01:57.113 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 18:01:59.328
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 18:02:06.915
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 18:02:07.536
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 18:02:07.536
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 18:02:07.928
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 18:02:07.928
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-18 18:02:10.459
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 18:02:11.227
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-18 21:28:49.273 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 21:28:50.976
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 21:29:12.436
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 21:29:12.952
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 21:29:12.952
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 21:29:13.332
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 21:29:13.332
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-18 21:29:16.055
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 21:29:16.858
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-18 21:30:11.118
+!MESSAGE Project 13_AutBasicaCustomDeniedBase already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-18 21:30:11.155
+!MESSAGE Project 17_JWTEntryPointBase already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-18 21:30:11.192
+!MESSAGE Project 19_JWTProviderBase already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-18 21:30:11.205
+!MESSAGE Project 20_JWTFilterBase already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-18 21:30:11.216
+!MESSAGE Project 21_JWTModeloBase already exists
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:12.448
+!MESSAGE Classpath changed for project: 33_OAuth2_JWTCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.754
+!MESSAGE Classpath changed for project: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.755
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.756
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.782
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.783
+!MESSAGE Classpath changed for project: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.784
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.784
+!MESSAGE Classpath changed for project: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.785
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 21:30:31.795
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745004631794
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:31.796
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 21:30:31.802
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 31544
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.491
+!MESSAGE Classpath changed for project: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.493
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.494
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.494
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.496
+!MESSAGE Classpath changed for project: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:33.497
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2025-04-18 21:30:34.263
+!MESSAGE Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.jdt.core.IClasspathEntry.getPath()" because the return value of "org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.getJreContainer(org.eclipse.jdt.core.IClasspathEntry[])" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.resolve(ClasspathUtil.java:98)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:130)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.445
+!MESSAGE Classpath changed for project: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.446
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.447
+!MESSAGE Classpath changed for project: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.448
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.448
+!MESSAGE Classpath changed for project: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:35.449
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.036
+!MESSAGE Classpath changed for project: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.037
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.038
+!MESSAGE Classpath changed for project: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.039
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.039
+!MESSAGE Classpath changed for project: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.039
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.040
+!MESSAGE Classpath changed for project: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:37.040
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.752
+!MESSAGE Classpath changed for project: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.753
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.753
+!MESSAGE Classpath changed for project: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.754
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.754
+!MESSAGE Classpath changed for project: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:38.755
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.281
+!MESSAGE Classpath changed for project: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.282
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.283
+!MESSAGE Classpath changed for project: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.283
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.284
+!MESSAGE Classpath changed for project: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.284
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.285
+!MESSAGE Classpath changed for project: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:40.286
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.062
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.063
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.063
+!MESSAGE Classpath changed for project: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.064
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.065
+!MESSAGE Classpath changed for project: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.065
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.066
+!MESSAGE Classpath changed for project: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:42.066
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.604
+!MESSAGE Classpath changed for project: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.604
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.605
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.605
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.606
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:43.607
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.137
+!MESSAGE Classpath changed for project: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.138
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.138
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.139
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.139
+!MESSAGE Classpath changed for project: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.140
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.140
+!MESSAGE Classpath changed for project: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:45.140
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.847
+!MESSAGE Classpath changed for project: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.848
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.849
+!MESSAGE Classpath changed for project: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.850
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.851
+!MESSAGE Classpath changed for project: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.852
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.853
+!MESSAGE Classpath changed for project: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:46.853
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.554
+!MESSAGE Classpath changed for project: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.556
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.557
+!MESSAGE Classpath changed for project: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.558
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.559
+!MESSAGE Classpath changed for project: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:48.560
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:49.771
+!MESSAGE Classpath changed for project: 33_OAuth2_JWTCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:49.773
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:49.773
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:30:49.774
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:02.068
+!MESSAGE Classpath changed for project: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:02.069
+!MESSAGE Classpath changed for project: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:02.069
+!MESSAGE Classpath changed for project: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.629
+!MESSAGE Classpath changed for project: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.630
+!MESSAGE Classpath changed for project: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.630
+!MESSAGE Classpath changed for project: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.630
+!MESSAGE Classpath changed for project: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.631
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:03.632
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.226
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.227
+!MESSAGE Classpath changed for project: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.227
+!MESSAGE Classpath changed for project: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.228
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.228
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:05.228
+!MESSAGE Classpath changed for project: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.870
+!MESSAGE Classpath changed for project: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.870
+!MESSAGE Classpath changed for project: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.871
+!MESSAGE Classpath changed for project: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.871
+!MESSAGE Classpath changed for project: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.872
+!MESSAGE Classpath changed for project: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:06.872
+!MESSAGE Classpath changed for project: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.499
+!MESSAGE Classpath changed for project: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.499
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.500
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.501
+!MESSAGE Classpath changed for project: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.502
+!MESSAGE Classpath changed for project: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:08.502
+!MESSAGE Classpath changed for project: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:09.097
+!MESSAGE Classpath changed for project: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:09.098
+!MESSAGE Classpath changed for project: 33_OAuth2_JWTBase
+
+!ENTRY org.eclipse.jface 2 0 2025-04-18 21:31:12.296
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-18 21:31:12.296
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-04-18 21:31:27.691 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 21:31:30.184
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-04-18 21:31:32.648
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-18 21:31:33.243
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 21:31:33.936
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 21:31:33.936
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-18 21:31:34.314
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-18 21:31:34.314
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-04-18 21:31:37.066
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-18 21:31:37.959
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.178
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.179
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.256
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.257
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.258
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.259
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.260
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.261
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.261
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.262
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.263
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.263
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.264
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.265
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.265
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.266
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.267
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.268
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.269
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.270
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.270
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.271
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.272
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.272
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.273
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.274
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.274
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.275
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.276
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.276
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.277
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.277
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.278
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.278
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.279
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.280
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.280
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.281
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.282
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.282
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.283
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.284
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 21:31:38.293
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745004698292
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:38.294
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-18 21:31:38.300
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 12836
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.394
+!MESSAGE Classpath changed for project: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.396
+!MESSAGE Classpath changed for project: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.397
+!MESSAGE Classpath changed for project: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.398
+!MESSAGE Classpath changed for project: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.399
+!MESSAGE Classpath changed for project: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.400
+!MESSAGE Classpath changed for project: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.401
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.402
+!MESSAGE Classpath changed for project: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.403
+!MESSAGE Classpath changed for project: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.404
+!MESSAGE Classpath changed for project: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.405
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.406
+!MESSAGE Classpath changed for project: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.406
+!MESSAGE Classpath changed for project: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.407
+!MESSAGE Classpath changed for project: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.408
+!MESSAGE Classpath changed for project: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.409
+!MESSAGE Classpath changed for project: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.409
+!MESSAGE Classpath changed for project: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.410
+!MESSAGE Classpath changed for project: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.411
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.412
+!MESSAGE Classpath changed for project: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.413
+!MESSAGE Classpath changed for project: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.413
+!MESSAGE Classpath changed for project: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.414
+!MESSAGE Classpath changed for project: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-18 21:31:39.415
+!MESSAGE Classpath changed for project: 33_OAuth2_JWTBase
+!SESSION 2025-04-19 16:16:48.648 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-19 16:16:50.625
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-19 16:16:53.764
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-19 16:16:54.598
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-19 16:16:54.598
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-19 16:16:55.015
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-19 16:16:55.015
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-19 16:16:59.224
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745072219223
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:16:59.224
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-19 16:16:59.233
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 26812
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-19 16:17:00.180
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.293
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.295
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.298
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.301
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.303
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.304
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.305
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.306
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.307
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.308
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.310
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.311
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.312
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.313
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.314
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.332
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.341
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.348
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.357
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.364
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.370
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.379
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.406
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.417
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.419
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.428
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.435
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.444
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.458
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.466
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.467
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.468
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.470
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.471
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.472
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.473
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.474
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.475
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.476
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.476
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.477
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-19 16:17:00.478
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+!SESSION 2025-04-20 19:45:07.996 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-20 19:45:09.624
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-20 19:45:14.745
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-20 19:45:15.517
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-20 19:45:15.517
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-20 19:45:15.839
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-20 19:45:15.839
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-20 19:45:19.771
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745171119771
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:19.771
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-20 19:45:19.787
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 28280
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-20 19:45:20.860
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.962
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.963
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.967
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.969
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.970
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.972
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.973
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.974
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.975
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.976
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.976
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.977
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.978
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.980
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.981
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.982
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.982
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.984
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.985
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.986
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.987
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:20.991
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.025
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.031
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.039
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.047
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.053
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.063
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.071
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.080
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.091
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.093
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.094
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.095
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.097
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.098
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.099
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.101
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.101
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.102
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.104
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-20 19:45:21.105
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+!SESSION 2025-04-21 20:40:37.476 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-21 20:40:40.242
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-21 20:40:44.054
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-21 20:40:44.794
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-21 20:40:44.794
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-21 20:40:45.179
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-21 20:40:45.179
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-21 20:40:50.131
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745260850131
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:50.132
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-21 20:40:50.141
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 25348
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.531
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.536
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.542
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.547
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.548
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.553
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.556
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.559
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.560
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.563
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.566
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.568
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.573
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.575
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.576
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.587
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.590
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.597
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.598
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.601
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.602
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.603
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.605
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.607
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.608
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.610
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.612
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.614
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.623
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.624
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.628
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.632
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.642
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.644
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.645
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.660
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.681
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.689
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.691
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.700
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.705
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 20:40:53.707
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-21 20:40:53.783
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-04-21 23:09:15.066 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-21 23:09:17.296
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-21 23:09:32.361
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-21 23:09:33.087
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-21 23:09:33.087
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-21 23:09:33.458
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-21 23:09:33.458
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-21 23:09:37.438
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745269777437
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:37.438
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-21 23:09:37.443
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 21184
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-21 23:09:38.474
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.601
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.602
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.605
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.607
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.608
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.609
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.611
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.612
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.613
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.614
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.616
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.617
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.617
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.618
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.620
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.621
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.621
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.622
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.623
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.624
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.625
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.627
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.628
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.630
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.631
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.632
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.633
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.635
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.636
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.637
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.643
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.650
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.656
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.663
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.664
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.665
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.666
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.667
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.668
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.669
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.669
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-21 23:09:38.670
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+!SESSION 2025-04-25 16:15:31.442 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 16:15:33.850
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 16:15:43.562
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 16:15:44.161
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 16:15:44.161
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 16:15:44.601
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 16:15:44.601
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 16:15:50.249
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745590550249
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:50.249
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 16:15:50.274
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 6116
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 16:15:52.958
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.544
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.544
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.560
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.576
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.590
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.590
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.592
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.608
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 16:15:53.624
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+
+!ENTRY org.eclipse.jface 2 0 2025-04-25 16:19:16.518
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-04-25 16:19:16.518
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-05-01 20:49:31.434 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\rbgsu\Documents\sorteoapp\sorteoapp
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 20:49:33.087
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 20:49:34.406
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 20:49:35.002
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 20:49:35.002
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 20:49:35.350
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 20:49:35.350
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 20:49:40.694
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746125380693
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:40.695
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 20:49:40.700
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14548
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-01 20:49:43.250
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.070
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.074
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.085
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.086
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.088
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.091
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.094
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.095
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.100
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.102
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.103
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.109
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.111
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.112
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.114
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.115
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.117
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.120
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.122
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.123
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.124
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.126
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.127
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.128
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.129
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.130
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.131
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.133
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.134
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.135
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.137
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.138
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.140
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.141
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.144
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.146
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.147
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.149
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.150
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.152
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.154
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 20:49:44.156
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto
+!SESSION 2025-05-02 22:43:02.669 -----------------------------------------------
+eclipse.buildId=4.34.0.202502032007
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 22:43:05.267
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 22:43:30.693
+!MESSAGE Logback config file: C:\Users\rbgsu\Documents\sorteoapp\sorteoapp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 22:43:31.434
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 22:43:31.434
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 22:43:31.792
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 22:43:31.792
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 22:43:35.983
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/rbgsu/Documents/sorteoapp/sorteoapp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746218615982
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\rbgsu\Documents\sts-4.28.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.60.0.202502031607\servers\spring-boot-language-server\spring-boot-language-server-1.60.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:35.984
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 22:43:35.988
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22148
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-05-02 22:43:37.298
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rbgsu'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.519
+!MESSAGE Boot project ADDED: 00_ProyectoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.520
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.523
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.525
+!MESSAGE Boot project ADDED: 01_SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.526
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.528
+!MESSAGE Boot project ADDED: 05_ModeloUsuarioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.530
+!MESSAGE Boot project ADDED: 06_RepositorioServicioBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.531
+!MESSAGE Boot project ADDED: 06_RepositorioServicioCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.532
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.534
+!MESSAGE Boot project ADDED: 07_UserDetailsServiceCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.535
+!MESSAGE Boot project ADDED: 08_ControladorRegistroBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.536
+!MESSAGE Boot project ADDED: 08_ControladorRegistroCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.537
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.539
+!MESSAGE Boot project ADDED: 09_RefactorizaDtoCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.540
+!MESSAGE Boot project ADDED: 10_ProyectoBase2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.541
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.543
+!MESSAGE Boot project ADDED: 11_AutenticacionBasicaCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.545
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.546
+!MESSAGE Boot project ADDED: 12_AutBasicaRefactorizacionCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.548
+!MESSAGE Boot project ADDED: 13_AutBasicaCustomDeniedBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.549
+!MESSAGE Boot project ADDED: 16_JWTSeguridadBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.550
+!MESSAGE Boot project ADDED: 16_JWTSeguridadCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.551
+!MESSAGE Boot project ADDED: 17_JWTEntryPointBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.553
+!MESSAGE Boot project ADDED: 18_JWTUsersBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.554
+!MESSAGE Boot project ADDED: 18_JWTUsersCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.555
+!MESSAGE Boot project ADDED: 19_JWTProviderBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.556
+!MESSAGE Boot project ADDED: 20_JWTFilterBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.558
+!MESSAGE Boot project ADDED: 21_JWTModeloBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.559
+!MESSAGE Boot project ADDED: 22_JWTControladorBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.561
+!MESSAGE Boot project ADDED: 22_JWTControladorCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.563
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.564
+!MESSAGE Boot project ADDED: 28_OAuth2_AutenticacionCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.565
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.567
+!MESSAGE Boot project ADDED: 29_OAuth2_RecursosCompleta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.568
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.570
+!MESSAGE Boot project ADDED: 30_OAuth2_CORSCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.574
+!MESSAGE Boot project ADDED: 31_OAuth2Cliente
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.580
+!MESSAGE Boot project ADDED: 31_OAuth2Servidor
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.581
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.582
+!MESSAGE Boot project ADDED: 32_OAuth2_BaseDatosCompleto
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.584
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTBase
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 22:43:37.585
+!MESSAGE Boot project ADDED: 33_OAuth2_JWTCompleto

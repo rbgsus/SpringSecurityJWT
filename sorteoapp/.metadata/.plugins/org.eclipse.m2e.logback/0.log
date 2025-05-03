@@ -1,0 +1,836 @@
+2025-04-13 22:51:11,988 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-15 19:24:47,550 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-18 18:02:11,202 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-18 21:29:16,828 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-18 21:30:11,118 [Worker-2: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project 13_AutBasicaCustomDeniedBase already exists
+2025-04-18 21:30:11,155 [Worker-2: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project 17_JWTEntryPointBase already exists
+2025-04-18 21:30:11,192 [Worker-2: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project 19_JWTProviderBase already exists
+2025-04-18 21:30:11,204 [Worker-2: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project 20_JWTFilterBase already exists
+2025-04-18 21:30:11,216 [Worker-2: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project 21_JWTModeloBase already exists
+2025-04-18 21:30:15,790 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:00_ProyectoBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\00_ProyectoBase\pom.xml.
+2025-04-18 21:30:16,121 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:01_SpringSecurity:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\01_SpringSecurity\pom.xml.
+2025-04-18 21:30:16,376 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:05_ModeloUsuarioBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioBase\pom.xml.
+2025-04-18 21:30:16,519 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:05_ModeloUsuarioCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioCompleto\pom.xml.
+2025-04-18 21:30:16,616 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:06_RepositorioServicioBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioBase\pom.xml.
+2025-04-18 21:30:16,704 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:06_RepositorioServicioCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioCompleto\pom.xml.
+2025-04-18 21:30:16,791 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:07_UserDetailsServiceBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceBase\pom.xml.
+2025-04-18 21:30:16,876 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:07_UserDetailsServiceCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceCompleto\pom.xml.
+2025-04-18 21:30:16,965 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:08_ControladorRegistroBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroBase\pom.xml.
+2025-04-18 21:30:17,042 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:08_ControladorRegistroCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroCompleto\pom.xml.
+2025-04-18 21:30:17,128 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:09_RefactorizaDtoBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoBase\pom.xml.
+2025-04-18 21:30:17,211 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:09_RefactorizaDtoCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoCompleto\pom.xml.
+2025-04-18 21:30:17,288 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:10_ProyectoBase2:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\10_ProyectoBase2\pom.xml.
+2025-04-18 21:30:17,380 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:11_AutenticacionBasicaBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaBase\pom.xml.
+2025-04-18 21:30:17,461 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:11_AutenticacionBasicaCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaCompleto\pom.xml.
+2025-04-18 21:30:17,544 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:12_AutBasicaRefactorizacionBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionBase\pom.xml.
+2025-04-18 21:30:17,623 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:12_AutBasicaRefactorizacionCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\pom.xml.
+2025-04-18 21:30:17,698 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:13_AutBasicaCustomDeniedBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\13_AutBasicaCustomDeniedBase\pom.xml.
+2025-04-18 21:30:17,772 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:16_JWTSeguridadBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadBase\pom.xml.
+2025-04-18 21:30:17,860 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:16_JWTSeguridadCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadCompleto\pom.xml.
+2025-04-18 21:30:17,937 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:17_JWTEntryPointBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\17_JWTEntryPointBase\pom.xml.
+2025-04-18 21:30:18,019 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:18_JWTUsersBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersBase\pom.xml.
+2025-04-18 21:30:18,097 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:18_JWTUsersCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersCompleto\pom.xml.
+2025-04-18 21:30:18,182 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:19_JWTProviderBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\19_JWTProviderBase\pom.xml.
+2025-04-18 21:30:18,266 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:20_JWTFilterBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\20_JWTFilterBase\pom.xml.
+2025-04-18 21:30:18,354 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:21_JWTModeloBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\21_JWTModeloBase\pom.xml.
+2025-04-18 21:30:18,439 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:22_JWTControladorBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorBase\pom.xml.
+2025-04-18 21:30:18,525 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:22_JWTControladorCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorCompleto\pom.xml.
+2025-04-18 21:30:18,611 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:28_OAuth2_AutenticacionBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionBase\pom.xml.
+2025-04-18 21:30:18,693 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:28_OAuth2_AutenticacionCompleta:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionCompleto\pom.xml.
+2025-04-18 21:30:18,805 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:29_OAuth2_RecursosBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosBase\pom.xml.
+2025-04-18 21:30:18,877 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:29_OAuth2_RecursosCompleta:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosCompleta\pom.xml.
+2025-04-18 21:30:18,951 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:30_OAuth2_CORSBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSBase\pom.xml.
+2025-04-18 21:30:19,024 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:30_OAuth2_CORSCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSCompleto\pom.xml.
+2025-04-18 21:30:19,095 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:31_OAuth2Cliente:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Cliente\pom.xml.
+2025-04-18 21:30:19,158 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:31_OAuth2Servidor:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Servidor\pom.xml.
+2025-04-18 21:30:19,226 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:32_OAuth2_BaseDatosBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosBase\pom.xml.
+2025-04-18 21:30:19,295 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:32_OAuth2_BaseDatosCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosCompleto\pom.xml.
+2025-04-18 21:30:19,366 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:33_OAuth2_JWTBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTBase\pom.xml.
+2025-04-18 21:30:19,445 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:33_OAuth2_JWTCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTCompleto\pom.xml.
+2025-04-18 21:30:30,620 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20_JWTFilterBase/src/main/java
+2025-04-18 21:30:30,621 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/main/resources
+2025-04-18 21:30:30,624 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/main/resources
+2025-04-18 21:30:30,625 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20_JWTFilterBase/src/test/java
+2025-04-18 21:30:30,626 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/test/resources
+2025-04-18 21:30:31,104 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30_OAuth2_CORSCompleto/src/main/java
+2025-04-18 21:30:31,105 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSCompleto/src/main/resources
+2025-04-18 21:30:31,107 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSCompleto/src/main/resources
+2025-04-18 21:30:31,108 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30_OAuth2_CORSCompleto/src/test/java
+2025-04-18 21:30:31,109 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSCompleto/src/test/resources
+2025-04-18 21:30:31,498 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /17_JWTEntryPointBase/src/main/java
+2025-04-18 21:30:31,499 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /17_JWTEntryPointBase/src/main/resources
+2025-04-18 21:30:31,501 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /17_JWTEntryPointBase/src/main/resources
+2025-04-18 21:30:31,503 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /17_JWTEntryPointBase/src/test/java
+2025-04-18 21:30:31,503 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /17_JWTEntryPointBase/src/test/resources
+2025-04-18 21:30:31,915 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceCompleto/src/main/java
+2025-04-18 21:30:31,915 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/main/resources
+2025-04-18 21:30:31,917 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/main/resources
+2025-04-18 21:30:31,919 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceCompleto/src/test/java
+2025-04-18 21:30:31,919 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/test/resources
+2025-04-18 21:30:32,433 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionBase/src/main/java
+2025-04-18 21:30:32,434 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/main/resources
+2025-04-18 21:30:32,437 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/main/resources
+2025-04-18 21:30:32,440 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionBase/src/test/java
+2025-04-18 21:30:32,441 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/test/resources
+2025-04-18 21:30:33,148 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /32_OAuth2_BaseDatosCompleto/src/main/java
+2025-04-18 21:30:33,149 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosCompleto/src/main/resources
+2025-04-18 21:30:33,152 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosCompleto/src/main/resources
+2025-04-18 21:30:33,155 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /32_OAuth2_BaseDatosCompleto/src/test/java
+2025-04-18 21:30:33,155 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosCompleto/src/test/resources
+2025-04-18 21:30:33,900 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceBase/src/main/java
+2025-04-18 21:30:33,901 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceBase/src/main/resources
+2025-04-18 21:30:33,904 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceBase/src/main/resources
+2025-04-18 21:30:33,907 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceBase/src/test/java
+2025-04-18 21:30:33,908 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceBase/src/test/resources
+2025-04-18 21:30:34,459 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorBase/src/main/java
+2025-04-18 21:30:34,460 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/main/resources
+2025-04-18 21:30:34,475 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/main/resources
+2025-04-18 21:30:34,478 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorBase/src/test/java
+2025-04-18 21:30:34,479 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/test/resources
+2025-04-18 21:30:35,073 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Servidor/src/main/java
+2025-04-18 21:30:35,073 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/main/resources
+2025-04-18 21:30:35,076 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/main/resources
+2025-04-18 21:30:35,078 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Servidor/src/test/java
+2025-04-18 21:30:35,079 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/test/resources
+2025-04-18 21:30:35,579 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroCompleto/src/main/java
+2025-04-18 21:30:35,580 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroCompleto/src/main/resources
+2025-04-18 21:30:35,582 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroCompleto/src/main/resources
+2025-04-18 21:30:35,584 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroCompleto/src/test/java
+2025-04-18 21:30:35,585 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroCompleto/src/test/resources
+2025-04-18 21:30:35,969 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18_JWTUsersBase/src/main/java
+2025-04-18 21:30:35,969 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersBase/src/main/resources
+2025-04-18 21:30:35,971 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersBase/src/main/resources
+2025-04-18 21:30:35,972 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18_JWTUsersBase/src/test/java
+2025-04-18 21:30:35,973 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersBase/src/test/resources
+2025-04-18 21:30:36,441 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /00_ProyectoBase/src/main/java
+2025-04-18 21:30:36,441 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/main/resources
+2025-04-18 21:30:36,443 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/main/resources
+2025-04-18 21:30:36,445 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /00_ProyectoBase/src/test/java
+2025-04-18 21:30:36,445 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/test/resources
+2025-04-18 21:30:36,854 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioBase/src/main/java
+2025-04-18 21:30:36,855 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioBase/src/main/resources
+2025-04-18 21:30:36,857 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioBase/src/main/resources
+2025-04-18 21:30:36,858 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioBase/src/test/java
+2025-04-18 21:30:36,859 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioBase/src/test/resources
+2025-04-18 21:30:37,323 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /21_JWTModeloBase/src/main/java
+2025-04-18 21:30:37,323 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/main/resources
+2025-04-18 21:30:37,325 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/main/resources
+2025-04-18 21:30:37,327 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /21_JWTModeloBase/src/test/java
+2025-04-18 21:30:37,328 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/test/resources
+2025-04-18 21:30:37,821 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /32_OAuth2_BaseDatosBase/src/main/java
+2025-04-18 21:30:37,822 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosBase/src/main/resources
+2025-04-18 21:30:37,826 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosBase/src/main/resources
+2025-04-18 21:30:37,831 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /32_OAuth2_BaseDatosBase/src/test/java
+2025-04-18 21:30:37,832 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /32_OAuth2_BaseDatosBase/src/test/resources
+2025-04-18 21:30:38,325 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTBase/src/main/java
+2025-04-18 21:30:38,326 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/main/resources
+2025-04-18 21:30:38,330 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/main/resources
+2025-04-18 21:30:38,332 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTBase/src/test/java
+2025-04-18 21:30:38,333 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/test/resources
+2025-04-18 21:30:38,798 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_ProyectoBase2/src/main/java
+2025-04-18 21:30:38,798 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/main/resources
+2025-04-18 21:30:38,802 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/main/resources
+2025-04-18 21:30:38,805 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_ProyectoBase2/src/test/java
+2025-04-18 21:30:38,806 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/test/resources
+2025-04-18 21:30:39,261 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /19_JWTProviderBase/src/main/java
+2025-04-18 21:30:39,261 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /19_JWTProviderBase/src/main/resources
+2025-04-18 21:30:39,263 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /19_JWTProviderBase/src/main/resources
+2025-04-18 21:30:39,265 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /19_JWTProviderBase/src/test/java
+2025-04-18 21:30:39,265 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /19_JWTProviderBase/src/test/resources
+2025-04-18 21:30:39,687 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadCompleto/src/main/java
+2025-04-18 21:30:39,688 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/main/resources
+2025-04-18 21:30:39,690 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/main/resources
+2025-04-18 21:30:39,691 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadCompleto/src/test/java
+2025-04-18 21:30:39,692 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/test/resources
+2025-04-18 21:30:40,176 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaCompleto/src/main/java
+2025-04-18 21:30:40,177 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/main/resources
+2025-04-18 21:30:40,178 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/main/resources
+2025-04-18 21:30:40,180 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaCompleto/src/test/java
+2025-04-18 21:30:40,180 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/test/resources
+2025-04-18 21:30:40,627 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionCompleto/src/main/java
+2025-04-18 21:30:40,627 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/main/resources
+2025-04-18 21:30:40,629 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/main/resources
+2025-04-18 21:30:40,630 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionCompleto/src/test/java
+2025-04-18 21:30:40,631 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/test/resources
+2025-04-18 21:30:41,068 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_AutBasicaCustomDeniedBase/src/main/java
+2025-04-18 21:30:41,069 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/main/resources
+2025-04-18 21:30:41,071 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/main/resources
+2025-04-18 21:30:41,072 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_AutBasicaCustomDeniedBase/src/test/java
+2025-04-18 21:30:41,073 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/test/resources
+2025-04-18 21:30:41,507 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadBase/src/main/java
+2025-04-18 21:30:41,508 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadBase/src/main/resources
+2025-04-18 21:30:41,511 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadBase/src/main/resources
+2025-04-18 21:30:41,522 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadBase/src/test/java
+2025-04-18 21:30:41,523 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadBase/src/test/resources
+2025-04-18 21:30:41,933 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Cliente/src/main/java
+2025-04-18 21:30:41,934 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/main/resources
+2025-04-18 21:30:41,935 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/main/resources
+2025-04-18 21:30:41,937 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Cliente/src/test/java
+2025-04-18 21:30:41,937 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/test/resources
+2025-04-18 21:30:42,338 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioBase/src/main/java
+2025-04-18 21:30:42,339 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/main/resources
+2025-04-18 21:30:42,341 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/main/resources
+2025-04-18 21:30:42,343 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioBase/src/test/java
+2025-04-18 21:30:42,344 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/test/resources
+2025-04-18 21:30:42,750 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoBase/src/main/java
+2025-04-18 21:30:42,751 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/main/resources
+2025-04-18 21:30:42,753 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/main/resources
+2025-04-18 21:30:42,755 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoBase/src/test/java
+2025-04-18 21:30:42,755 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/test/resources
+2025-04-18 21:30:43,256 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionBase/src/main/java
+2025-04-18 21:30:43,256 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/main/resources
+2025-04-18 21:30:43,264 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/main/resources
+2025-04-18 21:30:43,267 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionBase/src/test/java
+2025-04-18 21:30:43,268 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/test/resources
+2025-04-18 21:30:43,719 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosBase/src/main/java
+2025-04-18 21:30:43,720 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosBase/src/main/resources
+2025-04-18 21:30:43,721 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosBase/src/main/resources
+2025-04-18 21:30:43,723 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosBase/src/test/java
+2025-04-18 21:30:43,723 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosBase/src/test/resources
+2025-04-18 21:30:44,225 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoCompleto/src/main/java
+2025-04-18 21:30:44,225 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/main/resources
+2025-04-18 21:30:44,227 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/main/resources
+2025-04-18 21:30:44,228 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoCompleto/src/test/java
+2025-04-18 21:30:44,229 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/test/resources
+2025-04-18 21:30:44,623 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaBase/src/main/java
+2025-04-18 21:30:44,624 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaBase/src/main/resources
+2025-04-18 21:30:44,627 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaBase/src/main/resources
+2025-04-18 21:30:44,630 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaBase/src/test/java
+2025-04-18 21:30:44,630 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaBase/src/test/resources
+2025-04-18 21:30:45,033 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioCompleto/src/main/java
+2025-04-18 21:30:45,034 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioCompleto/src/main/resources
+2025-04-18 21:30:45,036 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioCompleto/src/main/resources
+2025-04-18 21:30:45,038 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioCompleto/src/test/java
+2025-04-18 21:30:45,038 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioCompleto/src/test/resources
+2025-04-18 21:30:45,437 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioCompleto/src/main/java
+2025-04-18 21:30:45,438 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/main/resources
+2025-04-18 21:30:45,439 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/main/resources
+2025-04-18 21:30:45,441 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioCompleto/src/test/java
+2025-04-18 21:30:45,441 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/test/resources
+2025-04-18 21:30:45,801 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroBase/src/main/java
+2025-04-18 21:30:45,801 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/main/resources
+2025-04-18 21:30:45,803 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/main/resources
+2025-04-18 21:30:45,804 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroBase/src/test/java
+2025-04-18 21:30:45,804 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/test/resources
+2025-04-18 21:30:46,239 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosCompleta/src/main/java
+2025-04-18 21:30:46,240 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/main/resources
+2025-04-18 21:30:46,243 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/main/resources
+2025-04-18 21:30:46,245 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosCompleta/src/test/java
+2025-04-18 21:30:46,246 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/test/resources
+2025-04-18 21:30:46,693 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18_JWTUsersCompleto/src/main/java
+2025-04-18 21:30:46,693 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersCompleto/src/main/resources
+2025-04-18 21:30:46,695 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersCompleto/src/main/resources
+2025-04-18 21:30:46,697 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /18_JWTUsersCompleto/src/test/java
+2025-04-18 21:30:46,698 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /18_JWTUsersCompleto/src/test/resources
+2025-04-18 21:30:47,249 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30_OAuth2_CORSBase/src/main/java
+2025-04-18 21:30:47,249 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSBase/src/main/resources
+2025-04-18 21:30:47,251 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSBase/src/main/resources
+2025-04-18 21:30:47,252 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /30_OAuth2_CORSBase/src/test/java
+2025-04-18 21:30:47,253 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /30_OAuth2_CORSBase/src/test/resources
+2025-04-18 21:30:47,761 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /01_SpringSecurity/src/main/java
+2025-04-18 21:30:47,762 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/main/resources
+2025-04-18 21:30:47,765 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/main/resources
+2025-04-18 21:30:47,767 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /01_SpringSecurity/src/test/java
+2025-04-18 21:30:47,768 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/test/resources
+2025-04-18 21:30:48,123 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorCompleto/src/main/java
+2025-04-18 21:30:48,124 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/main/resources
+2025-04-18 21:30:48,128 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/main/resources
+2025-04-18 21:30:48,130 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorCompleto/src/test/java
+2025-04-18 21:30:48,131 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/test/resources
+2025-04-18 21:30:48,757 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTCompleto/src/main/java
+2025-04-18 21:30:48,758 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTCompleto/src/main/resources
+2025-04-18 21:30:48,765 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTCompleto/src/main/resources
+2025-04-18 21:30:48,767 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTCompleto/src/test/java
+2025-04-18 21:30:48,768 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTCompleto/src/test/resources
+2025-04-18 21:30:49,336 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionCompleta/src/main/java
+2025-04-18 21:30:49,336 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/main/resources
+2025-04-18 21:30:49,338 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/main/resources
+2025-04-18 21:30:49,340 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionCompleta/src/test/java
+2025-04-18 21:30:49,340 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/test/resources
+2025-04-18 21:30:49,713 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 45 project(s) in 38 sec
+2025-04-18 21:30:50,042 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-18 21:30:52,008 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:00_ProyectoBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\00_ProyectoBase\pom.xml.
+2025-04-18 21:30:52,347 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:01_SpringSecurity:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\01_SpringSecurity\pom.xml.
+2025-04-18 21:30:52,543 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:05_ModeloUsuarioCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioCompleto\pom.xml.
+2025-04-18 21:30:52,681 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:06_RepositorioServicioBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioBase\pom.xml.
+2025-04-18 21:30:52,763 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:07_UserDetailsServiceCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceCompleto\pom.xml.
+2025-04-18 21:30:52,846 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:08_ControladorRegistroBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroBase\pom.xml.
+2025-04-18 21:30:52,943 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:09_RefactorizaDtoBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoBase\pom.xml.
+2025-04-18 21:30:53,025 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:09_RefactorizaDtoCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoCompleto\pom.xml.
+2025-04-18 21:30:53,126 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:10_ProyectoBase2:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\10_ProyectoBase2\pom.xml.
+2025-04-18 21:30:53,232 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:11_AutenticacionBasicaCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaCompleto\pom.xml.
+2025-04-18 21:30:53,334 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:12_AutBasicaRefactorizacionBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionBase\pom.xml.
+2025-04-18 21:30:53,414 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:12_AutBasicaRefactorizacionCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\pom.xml.
+2025-04-18 21:30:53,490 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:13_AutBasicaCustomDeniedBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\13_AutBasicaCustomDeniedBase\pom.xml.
+2025-04-18 21:30:53,570 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:16_JWTSeguridadCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadCompleto\pom.xml.
+2025-04-18 21:30:53,671 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:20_JWTFilterBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\20_JWTFilterBase\pom.xml.
+2025-04-18 21:30:53,763 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:21_JWTModeloBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\21_JWTModeloBase\pom.xml.
+2025-04-18 21:30:53,852 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:22_JWTControladorBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorBase\pom.xml.
+2025-04-18 21:30:53,941 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:22_JWTControladorCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorCompleto\pom.xml.
+2025-04-18 21:30:54,047 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:28_OAuth2_AutenticacionBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionBase\pom.xml.
+2025-04-18 21:30:54,148 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:28_OAuth2_AutenticacionCompleta:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionCompleto\pom.xml.
+2025-04-18 21:30:54,299 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:29_OAuth2_RecursosCompleta:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosCompleta\pom.xml.
+2025-04-18 21:30:54,388 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:31_OAuth2Cliente:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Cliente\pom.xml.
+2025-04-18 21:30:54,460 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:31_OAuth2Servidor:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Servidor\pom.xml.
+2025-04-18 21:30:54,541 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:33_OAuth2_JWTBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTBase\pom.xml.
+2025-04-18 21:31:01,244 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /00_ProyectoBase/src/main/java
+2025-04-18 21:31:01,244 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/main/resources
+2025-04-18 21:31:01,245 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/main/resources
+2025-04-18 21:31:01,245 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /00_ProyectoBase/src/test/java
+2025-04-18 21:31:01,245 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /00_ProyectoBase/src/test/resources
+2025-04-18 21:31:01,581 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /01_SpringSecurity/src/main/java
+2025-04-18 21:31:01,581 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/main/resources
+2025-04-18 21:31:01,582 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/main/resources
+2025-04-18 21:31:01,582 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /01_SpringSecurity/src/test/java
+2025-04-18 21:31:01,582 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /01_SpringSecurity/src/test/resources
+2025-04-18 21:31:01,807 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioCompleto/src/main/java
+2025-04-18 21:31:01,807 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/main/resources
+2025-04-18 21:31:01,808 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/main/resources
+2025-04-18 21:31:01,808 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /05_ModeloUsuarioCompleto/src/test/java
+2025-04-18 21:31:01,808 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /05_ModeloUsuarioCompleto/src/test/resources
+2025-04-18 21:31:02,149 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioBase/src/main/java
+2025-04-18 21:31:02,150 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/main/resources
+2025-04-18 21:31:02,150 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/main/resources
+2025-04-18 21:31:02,151 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /06_RepositorioServicioBase/src/test/java
+2025-04-18 21:31:02,151 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /06_RepositorioServicioBase/src/test/resources
+2025-04-18 21:31:02,435 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceCompleto/src/main/java
+2025-04-18 21:31:02,435 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/main/resources
+2025-04-18 21:31:02,436 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/main/resources
+2025-04-18 21:31:02,436 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /07_UserDetailsServiceCompleto/src/test/java
+2025-04-18 21:31:02,436 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /07_UserDetailsServiceCompleto/src/test/resources
+2025-04-18 21:31:02,729 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroBase/src/main/java
+2025-04-18 21:31:02,730 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/main/resources
+2025-04-18 21:31:02,730 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/main/resources
+2025-04-18 21:31:02,730 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /08_ControladorRegistroBase/src/test/java
+2025-04-18 21:31:02,730 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /08_ControladorRegistroBase/src/test/resources
+2025-04-18 21:31:03,034 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoBase/src/main/java
+2025-04-18 21:31:03,035 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/main/resources
+2025-04-18 21:31:03,035 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/main/resources
+2025-04-18 21:31:03,035 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoBase/src/test/java
+2025-04-18 21:31:03,036 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoBase/src/test/resources
+2025-04-18 21:31:03,324 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoCompleto/src/main/java
+2025-04-18 21:31:03,325 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/main/resources
+2025-04-18 21:31:03,325 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/main/resources
+2025-04-18 21:31:03,325 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /09_RefactorizaDtoCompleto/src/test/java
+2025-04-18 21:31:03,325 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /09_RefactorizaDtoCompleto/src/test/resources
+2025-04-18 21:31:03,701 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_ProyectoBase2/src/main/java
+2025-04-18 21:31:03,701 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/main/resources
+2025-04-18 21:31:03,701 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/main/resources
+2025-04-18 21:31:03,702 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /10_ProyectoBase2/src/test/java
+2025-04-18 21:31:03,702 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /10_ProyectoBase2/src/test/resources
+2025-04-18 21:31:04,026 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaCompleto/src/main/java
+2025-04-18 21:31:04,026 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/main/resources
+2025-04-18 21:31:04,026 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/main/resources
+2025-04-18 21:31:04,026 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /11_AutenticacionBasicaCompleto/src/test/java
+2025-04-18 21:31:04,027 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /11_AutenticacionBasicaCompleto/src/test/resources
+2025-04-18 21:31:04,339 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionBase/src/main/java
+2025-04-18 21:31:04,340 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/main/resources
+2025-04-18 21:31:04,340 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/main/resources
+2025-04-18 21:31:04,340 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionBase/src/test/java
+2025-04-18 21:31:04,340 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionBase/src/test/resources
+2025-04-18 21:31:04,665 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionCompleto/src/main/java
+2025-04-18 21:31:04,666 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/main/resources
+2025-04-18 21:31:04,666 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/main/resources
+2025-04-18 21:31:04,666 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /12_AutBasicaRefactorizacionCompleto/src/test/java
+2025-04-18 21:31:04,666 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /12_AutBasicaRefactorizacionCompleto/src/test/resources
+2025-04-18 21:31:04,975 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_AutBasicaCustomDeniedBase/src/main/java
+2025-04-18 21:31:04,976 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/main/resources
+2025-04-18 21:31:04,976 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/main/resources
+2025-04-18 21:31:04,976 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /13_AutBasicaCustomDeniedBase/src/test/java
+2025-04-18 21:31:04,976 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /13_AutBasicaCustomDeniedBase/src/test/resources
+2025-04-18 21:31:05,431 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadCompleto/src/main/java
+2025-04-18 21:31:05,431 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/main/resources
+2025-04-18 21:31:05,432 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/main/resources
+2025-04-18 21:31:05,432 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /16_JWTSeguridadCompleto/src/test/java
+2025-04-18 21:31:05,432 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /16_JWTSeguridadCompleto/src/test/resources
+2025-04-18 21:31:05,766 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20_JWTFilterBase/src/main/java
+2025-04-18 21:31:05,766 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/main/resources
+2025-04-18 21:31:05,766 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/main/resources
+2025-04-18 21:31:05,766 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /20_JWTFilterBase/src/test/java
+2025-04-18 21:31:05,767 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /20_JWTFilterBase/src/test/resources
+2025-04-18 21:31:06,080 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /21_JWTModeloBase/src/main/java
+2025-04-18 21:31:06,080 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/main/resources
+2025-04-18 21:31:06,080 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/main/resources
+2025-04-18 21:31:06,081 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /21_JWTModeloBase/src/test/java
+2025-04-18 21:31:06,081 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /21_JWTModeloBase/src/test/resources
+2025-04-18 21:31:06,393 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorBase/src/main/java
+2025-04-18 21:31:06,394 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/main/resources
+2025-04-18 21:31:06,394 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/main/resources
+2025-04-18 21:31:06,394 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorBase/src/test/java
+2025-04-18 21:31:06,394 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorBase/src/test/resources
+2025-04-18 21:31:06,709 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorCompleto/src/main/java
+2025-04-18 21:31:06,710 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/main/resources
+2025-04-18 21:31:06,710 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/main/resources
+2025-04-18 21:31:06,710 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /22_JWTControladorCompleto/src/test/java
+2025-04-18 21:31:06,711 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /22_JWTControladorCompleto/src/test/resources
+2025-04-18 21:31:07,066 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionBase/src/main/java
+2025-04-18 21:31:07,066 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/main/resources
+2025-04-18 21:31:07,066 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/main/resources
+2025-04-18 21:31:07,066 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionBase/src/test/java
+2025-04-18 21:31:07,066 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionBase/src/test/resources
+2025-04-18 21:31:07,376 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionCompleta/src/main/java
+2025-04-18 21:31:07,376 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/main/resources
+2025-04-18 21:31:07,377 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/main/resources
+2025-04-18 21:31:07,377 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /28_OAuth2_AutenticacionCompleta/src/test/java
+2025-04-18 21:31:07,377 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /28_OAuth2_AutenticacionCompleta/src/test/resources
+2025-04-18 21:31:07,727 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosCompleta/src/main/java
+2025-04-18 21:31:07,727 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/main/resources
+2025-04-18 21:31:07,728 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/main/resources
+2025-04-18 21:31:07,728 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /29_OAuth2_RecursosCompleta/src/test/java
+2025-04-18 21:31:07,728 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /29_OAuth2_RecursosCompleta/src/test/resources
+2025-04-18 21:31:08,064 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Cliente/src/main/java
+2025-04-18 21:31:08,065 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/main/resources
+2025-04-18 21:31:08,065 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/main/resources
+2025-04-18 21:31:08,065 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Cliente/src/test/java
+2025-04-18 21:31:08,065 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Cliente/src/test/resources
+2025-04-18 21:31:08,337 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Servidor/src/main/java
+2025-04-18 21:31:08,337 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/main/resources
+2025-04-18 21:31:08,338 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/main/resources
+2025-04-18 21:31:08,338 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /31_OAuth2Servidor/src/test/java
+2025-04-18 21:31:08,338 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /31_OAuth2Servidor/src/test/resources
+2025-04-18 21:31:08,748 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTBase/src/main/java
+2025-04-18 21:31:08,749 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/main/resources
+2025-04-18 21:31:08,749 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/main/resources
+2025-04-18 21:31:08,749 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /33_OAuth2_JWTBase/src/test/java
+2025-04-18 21:31:08,749 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /33_OAuth2_JWTBase/src/test/resources
+2025-04-18 21:31:10,087 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 24 poms: local refresh takes 0,00 sec, refresh facades takes 10,00 sec, update config takes 7,00 sec 
+2025-04-18 21:31:10,092 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-18 21:31:11,098 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:05_ModeloUsuarioBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioBase\pom.xml.
+2025-04-18 21:31:11,283 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:06_RepositorioServicioCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioCompleto\pom.xml.
+2025-04-18 21:31:11,350 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:07_UserDetailsServiceBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceBase\pom.xml.
+2025-04-18 21:31:11,417 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:08_ControladorRegistroCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroCompleto\pom.xml.
+2025-04-18 21:31:11,481 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:11_AutenticacionBasicaBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaBase\pom.xml.
+2025-04-18 21:31:11,635 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:16_JWTSeguridadBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadBase\pom.xml.
+2025-04-18 21:31:11,706 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:17_JWTEntryPointBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\17_JWTEntryPointBase\pom.xml.
+2025-04-18 21:31:11,770 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:18_JWTUsersBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersBase\pom.xml.
+2025-04-18 21:31:11,832 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:18_JWTUsersCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersCompleto\pom.xml.
+2025-04-18 21:31:11,912 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:19_JWTProviderBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\19_JWTProviderBase\pom.xml.
+2025-04-18 21:31:11,993 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:29_OAuth2_RecursosBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosBase\pom.xml.
+2025-04-18 21:31:12,120 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:30_OAuth2_CORSBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSBase\pom.xml.
+2025-04-18 21:31:12,227 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:30_OAuth2_CORSCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSCompleto\pom.xml.
+2025-04-18 21:31:12,327 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:32_OAuth2_BaseDatosBase:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosBase\pom.xml.
+2025-04-18 21:31:12,457 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:32_OAuth2_BaseDatosCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosCompleto\pom.xml.
+2025-04-18 21:31:12,556 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.openwebinars.rest:33_OAuth2_JWTCompleto:0.0.1-SNAPSHOT @ C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTCompleto\pom.xml.
+2025-04-18 21:31:37,930 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-18 21:31:44,967 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:44,980 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:45,029 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:45,044 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:45,044 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\00_ProyectoBase\src\test\resources
+2025-04-18 21:31:46,494 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:46,495 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:46,537 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:46,542 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:46,542 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\01_SpringSecurity\src\test\resources
+2025-04-18 21:31:47,421 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:47,421 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:47,463 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:47,468 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:47,468 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioBase\src\test\resources
+2025-04-18 21:31:48,215 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:48,215 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:48,257 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:48,264 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:48,264 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioCompleto\src\test\resources
+2025-04-18 21:31:49,092 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:49,093 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:49,117 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:49,125 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:49,125 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioBase\src\test\resources
+2025-04-18 21:31:49,899 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:49,900 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:49,940 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:49,945 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:49,945 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioCompleto\src\test\resources
+2025-04-18 21:31:50,850 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:50,850 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:50,890 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:50,896 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:50,896 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceBase\src\test\resources
+2025-04-18 21:31:51,664 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:51,664 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:51,704 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:51,709 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:51,709 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceCompleto\src\test\resources
+2025-04-18 21:31:52,441 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:52,442 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:52,461 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:52,465 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:52,465 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroBase\src\test\resources
+2025-04-18 21:31:53,058 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:53,059 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:53,075 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:53,079 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:53,080 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroCompleto\src\test\resources
+2025-04-18 21:31:53,938 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:53,938 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:53,946 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:53,951 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:53,951 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoBase\src\test\resources
+2025-04-18 21:31:54,675 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:54,676 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:54,696 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:31:54,703 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:54,704 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoCompleto\src\test\resources
+2025-04-18 21:31:55,897 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:55,898 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:55,950 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:55,989 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:55,990 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\10_ProyectoBase2\src\test\resources
+2025-04-18 21:31:56,914 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:56,916 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:56,922 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:56,927 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:56,927 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaBase\src\test\resources
+2025-04-18 21:31:57,792 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:57,792 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:57,798 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:57,802 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:57,803 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaCompleto\src\test\resources
+2025-04-18 21:31:58,656 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:58,656 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:58,664 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:58,669 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:58,670 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionBase\src\test\resources
+2025-04-18 21:31:59,363 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:59,363 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:59,370 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:31:59,376 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:31:59,377 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-18 21:32:00,205 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:00,205 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:00,247 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:00,258 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:00,258 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\13_AutBasicaCustomDeniedBase\src\test\resources
+2025-04-18 21:32:01,104 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:01,106 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:01,124 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:01,129 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:01,129 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadBase\src\test\resources
+2025-04-18 21:32:01,872 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:01,873 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:01,887 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:01,895 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:01,895 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadCompleto\src\test\resources
+2025-04-18 21:32:02,490 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:02,490 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:02,499 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:02,505 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:02,505 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\17_JWTEntryPointBase\src\test\resources
+2025-04-18 21:32:03,153 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:03,154 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:03,181 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:03,187 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:03,188 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersBase\src\test\resources
+2025-04-18 21:32:03,804 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:03,805 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:03,812 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:03,818 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:03,818 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersCompleto\src\test\resources
+2025-04-18 21:32:04,378 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:04,378 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:04,383 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:04,387 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:04,387 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\19_JWTProviderBase\src\test\resources
+2025-04-18 21:32:04,962 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:04,962 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:04,969 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:04,974 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:04,974 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\20_JWTFilterBase\src\test\resources
+2025-04-18 21:32:05,475 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:05,475 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:05,481 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:05,485 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:05,485 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\21_JWTModeloBase\src\test\resources
+2025-04-18 21:32:05,992 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:05,992 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:06,000 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:06,004 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:06,004 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorBase\src\test\resources
+2025-04-18 21:32:06,740 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:06,741 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:06,749 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:06,755 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:06,755 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorCompleto\src\test\resources
+2025-04-18 21:32:07,329 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:07,329 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:07,335 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:07,340 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:07,340 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionBase\src\test\resources
+2025-04-18 21:32:07,877 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:07,878 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:07,884 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:07,888 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:07,888 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionCompleto\src\test\resources
+2025-04-18 21:32:08,503 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:08,503 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:08,510 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:08,515 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:08,515 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosBase\src\test\resources
+2025-04-18 21:32:09,016 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:09,016 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:09,023 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:09,027 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:09,027 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosCompleta\src\test\resources
+2025-04-18 21:32:09,619 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:09,619 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:09,626 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:09,632 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:09,633 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSBase\src\test\resources
+2025-04-18 21:32:10,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:10,161 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:10,167 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:10,171 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:10,171 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSCompleto\src\test\resources
+2025-04-18 21:32:10,531 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:10,531 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:10,537 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2025-04-18 21:32:10,547 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:10,547 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Cliente\src\test\resources
+2025-04-18 21:32:11,109 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:11,109 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:11,116 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:11,121 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:11,121 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Servidor\src\test\resources
+2025-04-18 21:32:11,602 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:11,603 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:11,608 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2025-04-18 21:32:11,614 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:11,614 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosBase\src\test\resources
+2025-04-18 21:32:12,087 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:12,088 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:12,093 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2025-04-18 21:32:12,099 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:12,099 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosCompleto\src\test\resources
+2025-04-18 21:32:12,676 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:12,676 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:12,685 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2025-04-18 21:32:12,690 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:12,691 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTBase\src\test\resources
+2025-04-18 21:32:13,315 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:13,316 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-18 21:32:13,334 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2025-04-18 21:32:13,339 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:13,339 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTCompleto\src\test\resources
+2025-04-18 21:32:14,425 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,426 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,426 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,428 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,428 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\00_ProyectoBase\src\test\resources
+2025-04-18 21:32:14,700 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,703 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,703 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,705 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,706 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\01_SpringSecurity\src\test\resources
+2025-04-18 21:32:14,731 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,732 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,733 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:14,736 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:14,736 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioBase\src\test\resources
+2025-04-18 21:32:15,086 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,088 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,089 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,092 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,093 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\05_ModeloUsuarioCompleto\src\test\resources
+2025-04-18 21:32:15,128 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,128 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,129 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,130 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,130 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioBase\src\test\resources
+2025-04-18 21:32:15,159 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,160 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,160 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,161 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,162 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\06_RepositorioServicioCompleto\src\test\resources
+2025-04-18 21:32:15,402 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,404 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,404 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,406 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,406 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceBase\src\test\resources
+2025-04-18 21:32:15,434 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,434 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,435 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,437 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,437 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\07_UserDetailsServiceCompleto\src\test\resources
+2025-04-18 21:32:15,468 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,470 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,470 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,472 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,472 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroBase\src\test\resources
+2025-04-18 21:32:15,716 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,720 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,720 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\08_ControladorRegistroCompleto\src\test\resources
+2025-04-18 21:32:15,933 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,934 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,934 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:15,936 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:15,937 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoBase\src\test\resources
+2025-04-18 21:32:16,198 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,200 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,200 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,203 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,203 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\09_RefactorizaDtoCompleto\src\test\resources
+2025-04-18 21:32:16,248 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,249 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,249 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,252 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,252 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\10_ProyectoBase2\src\test\resources
+2025-04-18 21:32:16,537 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,538 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,538 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,541 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,541 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaBase\src\test\resources
+2025-04-18 21:32:16,638 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,639 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,640 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,642 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,642 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\11_AutenticacionBasicaCompleto\src\test\resources
+2025-04-18 21:32:16,762 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,763 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,764 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:16,767 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:16,767 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionBase\src\test\resources
+2025-04-18 21:32:17,111 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,113 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,113 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,115 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,116 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-18 21:32:17,195 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,195 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,196 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,197 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,197 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\13_AutBasicaCustomDeniedBase\src\test\resources
+2025-04-18 21:32:17,275 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,275 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,276 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,277 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,277 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadBase\src\test\resources
+2025-04-18 21:32:17,364 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,365 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,365 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,367 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,367 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\16_JWTSeguridadCompleto\src\test\resources
+2025-04-18 21:32:17,637 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,638 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,638 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,640 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,640 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\17_JWTEntryPointBase\src\test\resources
+2025-04-18 21:32:17,932 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,933 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,933 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:17,935 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:17,935 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersBase\src\test\resources
+2025-04-18 21:32:18,010 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,011 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,011 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,012 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,012 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\18_JWTUsersCompleto\src\test\resources
+2025-04-18 21:32:18,092 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,093 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,093 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,096 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,096 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\19_JWTProviderBase\src\test\resources
+2025-04-18 21:32:18,420 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,421 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,422 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,425 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,425 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\20_JWTFilterBase\src\test\resources
+2025-04-18 21:32:18,766 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,768 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,769 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,771 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,771 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\21_JWTModeloBase\src\test\resources
+2025-04-18 21:32:18,851 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,852 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,852 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,854 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,854 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorBase\src\test\resources
+2025-04-18 21:32:18,946 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,947 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,947 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:18,949 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:18,949 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\22_JWTControladorCompleto\src\test\resources
+2025-04-18 21:32:19,059 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,060 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,060 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,062 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,062 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionBase\src\test\resources
+2025-04-18 21:32:19,144 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,145 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,145 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,147 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,147 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\28_OAuth2_AutenticacionCompleto\src\test\resources
+2025-04-18 21:32:19,241 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,242 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,243 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,245 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,245 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosBase\src\test\resources
+2025-04-18 21:32:19,334 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,334 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,335 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,338 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,338 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\29_OAuth2_RecursosCompleta\src\test\resources
+2025-04-18 21:32:19,643 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,644 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,645 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,647 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,647 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSBase\src\test\resources
+2025-04-18 21:32:19,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,717 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,719 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,719 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\30_OAuth2_CORSCompleto\src\test\resources
+2025-04-18 21:32:19,956 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,957 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,958 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,959 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,959 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Cliente\src\test\resources
+2025-04-18 21:32:19,979 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,979 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,980 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:19,981 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:19,981 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\31_OAuth2Servidor\src\test\resources
+2025-04-18 21:32:20,051 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,052 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,053 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,055 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,055 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosBase\src\test\resources
+2025-04-18 21:32:20,149 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,150 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,150 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,152 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\32_OAuth2_BaseDatosCompleto\src\test\resources
+2025-04-18 21:32:20,282 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,283 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,284 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2025-04-18 21:32:20,286 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-18 21:32:20,286 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\33_OAuth2_JWTBase\src\test\resources
+2025-04-19 16:17:00,146 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-20 19:45:20,821 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-20 19:47:10,227 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:47:10,237 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:47:10,247 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:47:10,252 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:47:10,252 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-20 19:47:36,989 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:47:36,991 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:47:36,992 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:47:36,996 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:47:36,996 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-20 19:48:15,585 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:48:15,585 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:48:15,586 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:48:15,590 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:48:15,590 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-20 19:48:19,390 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:48:19,390 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:48:19,391 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-04-20 19:48:19,393 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-04-20 19:48:19,394 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rbgsu\Documents\workspace-spring-tool-suite-4-4.28.0.RELEASE\SPRING SECURITY\secured-spring-rest-api-master\12_AutBasicaRefactorizacionCompleto\src\test\resources
+2025-04-21 20:40:52,631 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-21 23:09:38,431 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-04-25 16:15:52,910 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-01 20:49:43,155 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-05-02 22:43:37,252 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
