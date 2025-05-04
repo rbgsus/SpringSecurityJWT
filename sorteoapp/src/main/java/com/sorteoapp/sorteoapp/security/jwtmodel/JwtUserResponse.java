@@ -1,5 +1,6 @@
 package com.sorteoapp.sorteoapp.security.jwtmodel;
 
+import java.time.LocalDate;
 import java.util.Set;
 
 import com.sorteoapp.sorteoapp.dto.GetuserDto;
@@ -17,8 +18,8 @@ public class JwtUserResponse extends GetuserDto {
 	private String token;
 
 	@Builder(builderMethodName = "jwtUserResponseBuilder")
-	public JwtUserResponse(String username, String avatar, String email, Set<String> roles, String token) {
-		super(username, avatar, email, roles);
+	public JwtUserResponse( LocalDate fecha,String username, String avatar, String email, Set<String> roles, String token) {
+		super(fecha, username, avatar, email, roles);
 		this.token = token;
 	}
 

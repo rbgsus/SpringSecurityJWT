@@ -16,9 +16,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CreateUserDto {
+public class EditUserDto {
 
-	// Creación de usuario con los campos obligatorios de UserEntity
+	private String dni;
+
 	@NotBlank(message = "El campo del nombre no puede estar vacío")
 	@NotEmpty(message = "El campo del nombre no puede estar vacío")
 	private String name;
@@ -31,21 +32,16 @@ public class CreateUserDto {
 	@NotEmpty(message = "El campo del primer apellido no puede estar vacío")
 	private String firstName;
 
+	private String lastName;
+
 	@NotBlank(message = "El campo del email no puede estar vacío")
 	@NotEmpty(message = "El campo del email no puede estar vacío")
 	@Email(message = "El email no está correctamente formado")
 	private String email;
 
-	@NotBlank(message = "El campo de la contraseña no puede estar vacío")
-	@NotEmpty(message = "El campo de la contraseña no puede estar vacío")
-	private String password;
-
-	@NotBlank(message = "El campo de la contraseña no puede estar vacío")
-	@NotEmpty(message = "El campo de la contraseña no puede estar vacío")
-	private String password2;
+	private String phone;
 
 	@Builder.Default
 	@JsonFormat(pattern = "yyyy-MM-dd") // Formato para LocalDate
 	private LocalDate fechaNacimiento = LocalDate.now();
-
 }

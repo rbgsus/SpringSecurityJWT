@@ -1,7 +1,7 @@
 package com.sorteoapp.sorteoapp.model;
 
-public enum UserRole {
+public enum TipoEtiqueta {
 	
-	USER, ADMIN, GUEST
+	VENTA, BUSCA
 
 }

@@ -14,5 +14,4 @@ public class UserDtoConverter {
 		return GetuserDto.builder().username(user.getUsername()).avatar(user.getAvatar()).email(user.getEmail())
 				.roles(Set.of(UserRole.USER.name())).build();
 	}
-
 }

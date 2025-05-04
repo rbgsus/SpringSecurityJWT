@@ -38,4 +38,8 @@ public class Tarjeta {
 	@JoinColumn(name = "id_usuario")
 	private UserEntity usuario;
 
+    @Enumerated(EnumType.STRING)
+    private TipoEtiqueta tipoEtiqueta;
+    
+    
 }

@@ -37,10 +37,13 @@ public class SecurityConfig {
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.authorizeHttpRequests(auth -> auth.requestMatchers(HttpMethod.POST, "/tarjetas/**").permitAll()
 						.requestMatchers(HttpMethod.POST, "/user/**").permitAll()
-						.requestMatchers(HttpMethod.GET, "/user/**").hasAnyRole("USER", "ADMIN")
+						.requestMatchers(HttpMethod.GET, "/user/all").permitAll()
 						.requestMatchers(HttpMethod.GET, "/tarjetas/todas**").permitAll()
+						.requestMatchers(HttpMethod.POST, "/tarjeta/**").hasRole("USER")
 						.requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
 						.requestMatchers(HttpMethod.PUT, "/tarjeta/**").hasRole("ADMIN")
+						.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("ADMIN")
+						.requestMatchers(HttpMethod.DELETE, "/user/**").permitAll()
 						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN").anyRequest()
 						.authenticated());
 
@@ -59,6 +62,6 @@ public class SecurityConfig {
 
 	@Bean
 	public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
-	    return authConfig.getAuthenticationManager();
+		return authConfig.getAuthenticationManager();
 	}
 }
