@@ -35,17 +35,26 @@ public class SecurityConfig {
 		http.csrf(csrf -> csrf.disable())
 				.exceptionHandling(ex -> ex.authenticationEntryPoint(customAuthenticationEntryPoint))
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-				.authorizeHttpRequests(auth -> auth.requestMatchers(HttpMethod.POST, "/tarjetas/**").permitAll()
-						.requestMatchers(HttpMethod.POST, "/user/**").permitAll()
-						.requestMatchers(HttpMethod.GET, "/user/all").permitAll()
+				.authorizeHttpRequests(auth -> auth.requestMatchers(HttpMethod.POST, "/tarjetas/**")
+						.hasAnyRole("ADMIN", "USER").requestMatchers(HttpMethod.POST, "/user/**").permitAll()
+						.requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
 						.requestMatchers(HttpMethod.GET, "/tarjetas/todas**").permitAll()
-						.requestMatchers(HttpMethod.POST, "/tarjeta/**").hasRole("USER")
-						.requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
+						.requestMatchers(HttpMethod.POST, "/tarjeta/**").hasAnyRole("ADMIN", "USER")
+						.requestMatchers(HttpMethod.POST, "/auth/login**").hasAnyRole("ADMIN", "USER", "GUEST")
 						.requestMatchers(HttpMethod.PUT, "/tarjeta/**").hasRole("ADMIN")
+
+						// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
+						// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
+
 						.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("ADMIN")
-						.requestMatchers(HttpMethod.DELETE, "/user/**").permitAll()
-						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN").anyRequest()
-						.authenticated());
+						.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
+						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
+						
+						// CREAR METODO PARA QUE EL PROPIO USUARIO PUEDA BLOQUEAR Y SOLICITAR SU ELIMINACIÓN
+						//  .requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("USER")
+						
+						.anyRequest()
+						.denyAll());
 
 		http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
