@@ -43,8 +43,12 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		validateNewUser(newUser);
 
 		UserEntity userEntity = UserEntity.builder().name(newUser.getName()).username(newUser.getUsername())
-				.firstName(newUser.getFirstName()).password(passwordEncoder.encode(newUser.getPassword()))
-				.fechaNacimiento(newUser.getFechaNacimiento()).email(newUser.getEmail()).roles(Set.of(UserRole.GUEST))
+				.firstName(newUser.getFirstName())
+				.lastName(newUser.getLastName())
+				.password(passwordEncoder.encode(newUser.getPassword()))
+				.fechaNacimiento(newUser.getFechaNacimiento()).email(newUser.getEmail())
+				.avatar(newUser.getAvatar())
+				.roles(Set.of(UserRole.GUEST))
 				.build();
 
 		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());

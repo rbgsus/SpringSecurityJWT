@@ -30,6 +30,8 @@ public class CreateUserDto {
 	@NotBlank(message = "El campo del primer apellido no puede estar vacío")
 	@NotEmpty(message = "El campo del primer apellido no puede estar vacío")
 	private String firstName;
+	
+	private String lastName;
 
 	@NotBlank(message = "El campo del email no puede estar vacío")
 	@NotEmpty(message = "El campo del email no puede estar vacío")
@@ -47,5 +49,7 @@ public class CreateUserDto {
 	@Builder.Default
 	@JsonFormat(pattern = "yyyy-MM-dd") // Formato para LocalDate
 	private LocalDate fechaNacimiento = LocalDate.now();
+	
+	private String avatar;
 
 }
