@@ -45,7 +45,7 @@ public class SecurityConfig {
                 .requestMatchers(HttpMethod.POST, "/cards/**").hasAnyRole("ADMIN", "USER")
                 .requestMatchers(HttpMethod.POST, "/user/**").permitAll()
                 .requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
-                .requestMatchers(HttpMethod.GET, "/cards/all**").permitAll()
+                .requestMatchers(HttpMethod.GET, "/cards/**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
                 .requestMatchers(HttpMethod.PUT, "/card/**").hasRole("ADMIN")
 				// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO

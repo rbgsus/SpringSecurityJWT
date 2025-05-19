@@ -48,7 +48,7 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 				.password(passwordEncoder.encode(newUser.getPassword()))
 				.fechaNacimiento(newUser.getFechaNacimiento()).email(newUser.getEmail())
 				.avatar(newUser.getAvatar())
-				.roles(Set.of(UserRole.GUEST))
+				.roles(Set.of(UserRole.USER))
 				.build();
 
 		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());
