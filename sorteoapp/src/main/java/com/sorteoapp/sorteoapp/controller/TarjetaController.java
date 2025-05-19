@@ -22,7 +22,7 @@ import com.sorteoapp.sorteoapp.model.Tarjeta;
 import com.sorteoapp.sorteoapp.service.TarjetaService;
 
 @RestController
-@RequestMapping("/tarjetas") // La ruta "/tarjeta" ahora está en plural
+@RequestMapping("/cards") // La ruta "/tarjeta" ahora está en plural
 public class TarjetaController {
 
 	@Autowired
@@ -43,7 +43,7 @@ public class TarjetaController {
 	}
 
 	// TODO: Eliminar este endpoint
-	@GetMapping("/todas")
+	@GetMapping("/all")
 	public ResponseEntity<List<GetTarjetaDto>> obtenerTodasTarjetas2() {
 		List<Tarjeta> todasTarjetas = tarjetaService.findAll();
 

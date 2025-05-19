@@ -42,13 +42,12 @@ public class SecurityConfig {
             .exceptionHandling(ex -> ex.authenticationEntryPoint(customAuthenticationEntryPoint))
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers(HttpMethod.POST, "/tarjetas/**").hasAnyRole("ADMIN", "USER")
+                .requestMatchers(HttpMethod.POST, "/cards/**").hasAnyRole("ADMIN", "USER")
                 .requestMatchers(HttpMethod.POST, "/user/**").permitAll()
                 .requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
-                .requestMatchers(HttpMethod.GET, "/tarjetas/todas**").permitAll()
-                .requestMatchers(HttpMethod.POST, "/tarjeta/**").hasAnyRole("ADMIN", "USER")
+                .requestMatchers(HttpMethod.GET, "/cards/all**").permitAll()
                 .requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
-                .requestMatchers(HttpMethod.PUT, "/tarjeta/**").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.PUT, "/card/**").hasRole("ADMIN")
 				// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
 				// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
 
