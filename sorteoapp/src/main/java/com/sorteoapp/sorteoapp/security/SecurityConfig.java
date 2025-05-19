@@ -1,5 +1,7 @@
 package com.sorteoapp.sorteoapp.security;
 
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -14,6 +16,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
 import lombok.RequiredArgsConstructor;
 
@@ -22,55 +27,70 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class SecurityConfig {
 
-	private final UserDetailsService userDetailsService;
-	private final PasswordEncoder passwordEncoder;
+    private final UserDetailsService userDetailsService;
+    private final PasswordEncoder passwordEncoder;
 
-	// Aquí debes inyectar tu filtro personalizado cuando lo tengas listo
-	private final JwtAuthenticationFilter jwtAuthenticationFilter;
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
 
-	private final CustomAuthenticationEntryPoint customAuthenticationEntryPoint;
+    private final CustomAuthenticationEntryPoint customAuthenticationEntryPoint;
 
-	@Bean
-	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-		http.csrf(csrf -> csrf.disable())
-				.exceptionHandling(ex -> ex.authenticationEntryPoint(customAuthenticationEntryPoint))
-				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
-				.authorizeHttpRequests(auth -> auth.requestMatchers(HttpMethod.POST, "/tarjetas/**")
-						.hasAnyRole("ADMIN", "USER").requestMatchers(HttpMethod.POST, "/user/**").permitAll()
-						.requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
-						.requestMatchers(HttpMethod.GET, "/tarjetas/todas**").permitAll()
-						.requestMatchers(HttpMethod.POST, "/tarjeta/**").hasAnyRole("ADMIN", "USER")
-						.requestMatchers(HttpMethod.POST, "/auth/login**").hasAnyRole("ADMIN", "USER", "GUEST")
-						.requestMatchers(HttpMethod.PUT, "/tarjeta/**").hasRole("ADMIN")
+    @Bean
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+            .cors(cors -> cors.configurationSource(corsConfigurationSource()))  // <-- habilitar CORS
+            .csrf(csrf -> csrf.disable())
+            .exceptionHandling(ex -> ex.authenticationEntryPoint(customAuthenticationEntryPoint))
+            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .authorizeHttpRequests(auth -> auth
+                .requestMatchers(HttpMethod.POST, "/tarjetas/**").hasAnyRole("ADMIN", "USER")
+                .requestMatchers(HttpMethod.POST, "/user/**").permitAll()
+                .requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.GET, "/tarjetas/todas**").permitAll()
+                .requestMatchers(HttpMethod.POST, "/tarjeta/**").hasAnyRole("ADMIN", "USER")
+                .requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
+                .requestMatchers(HttpMethod.PUT, "/tarjeta/**").hasRole("ADMIN")
+				// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
+				// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
 
-						// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
-						// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
+				.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("ADMIN")
+				.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
+				.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
+				
+				// CREAR METODO PARA QUE EL PROPIO USUARIO PUEDA BLOQUEAR Y SOLICITAR SU ELIMINACIÓN
+				//  .requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("USER")
+                .anyRequest().denyAll()
+            );
 
-						.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("ADMIN")
-						.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
-						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
-						
-						// CREAR METODO PARA QUE EL PROPIO USUARIO PUEDA BLOQUEAR Y SOLICITAR SU ELIMINACIÓN
-						//  .requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("USER")
-						
-						.anyRequest()
-						.denyAll());
+        http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
-		http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+        return http.build();
+    }
 
-		return http.build();
-	}
+    // Configuración CORS
+    @Bean
+    public CorsConfigurationSource corsConfigurationSource() {
+        CorsConfiguration configuration = new CorsConfiguration();
+        configuration.setAllowedOrigins(List.of("http://localhost:4200"));  // URL de Angular
+        configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
+        configuration.setAllowedHeaders(List.of("*"));
+        configuration.setAllowCredentials(true);
 
-	@Bean
-	public AuthenticationProvider authenticationProvider() {
-		DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
-		provider.setUserDetailsService(userDetailsService);
-		provider.setPasswordEncoder(passwordEncoder);
-		return provider;
-	}
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+        source.registerCorsConfiguration("/**", configuration);
 
-	@Bean
-	public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
-		return authConfig.getAuthenticationManager();
-	}
+        return source;
+    }
+
+    @Bean
+    public AuthenticationProvider authenticationProvider() {
+        DaoAuthenticationProvider provider = new DaoAuthenticationProvider();
+        provider.setUserDetailsService(userDetailsService);
+        provider.setPasswordEncoder(passwordEncoder);
+        return provider;
+    }
+
+    @Bean
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
+        return authConfig.getAuthenticationManager();
+    }
 }
