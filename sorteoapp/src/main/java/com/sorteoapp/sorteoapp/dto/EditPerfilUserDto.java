@@ -44,4 +44,9 @@ public class EditPerfilUserDto {
 	@Builder.Default
 	@JsonFormat(pattern = "yyyy-MM-dd") // Formato para LocalDate
 	private LocalDate fechaNacimiento = LocalDate.now();
+	
+	
+	private String avatar;
+	
+	
 }

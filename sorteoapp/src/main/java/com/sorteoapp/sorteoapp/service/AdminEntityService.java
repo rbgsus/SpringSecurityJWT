@@ -1,20 +1,17 @@
 package com.sorteoapp.sorteoapp.service;
 
 import java.util.Optional;
-import java.util.Set;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.sorteoapp.sorteoapp.dto.CreateUserDto;
+import com.sorteoapp.sorteoapp.dto.AdminEditUserDto;
 import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
 import com.sorteoapp.sorteoapp.error.exceptions.EmailAlreadyExistsException;
-import com.sorteoapp.sorteoapp.error.exceptions.NewUserWithDifferentPasswordsException;
 import com.sorteoapp.sorteoapp.error.exceptions.UserNotFoundException;
 import com.sorteoapp.sorteoapp.error.exceptions.UsernameAlreadyExistsException;
 import com.sorteoapp.sorteoapp.model.UserEntity;
-import com.sorteoapp.sorteoapp.model.UserRole;
-import com.sorteoapp.sorteoapp.repository.UserEntityRepository;
+import com.sorteoapp.sorteoapp.repository.AdminEntityRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class UserEntityService extends BaseService<UserEntity, Long, UserEntityRepository> {
+public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntityRepository> {
 
 	private final PasswordEncoder passwordEncoder;
 
@@ -38,18 +35,9 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		return findById(id).orElseThrow(() -> new UserNotFoundException(id));
 	}
 
-	public UserEntity registerUser(CreateUserDto newUser) {
-		validateUser(newUser);
-
-		UserEntity userEntity = UserEntity.builder().name(newUser.getName()).username(newUser.getUsername())
-				.firstName(newUser.getFirstName()).lastName(newUser.getLastName())
-				.password(passwordEncoder.encode(newUser.getPassword())).email(newUser.getEmail())
-				.avatar(newUser.getAvatar()).roles(Set.of(UserRole.USER)).build();
-
-		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());
-		return save(userEntity);
-	}
-
+	
+	
+	// TODO: AQUI EMPIEZA LA TAREA DE PODER EDITAR TODO
 	public UserEntity updateUserAsUser(Long id, EditPerfilUserDto dto) {
 		UserEntity user = findByIdOrThrow(id);
 
@@ -68,26 +56,32 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		return save(user);
 	}
 
-	// -------------------- MÉTODOS PRIVADOS --------------------
+	public UserEntity updateUserAsAdmin(Long id, AdminEditUserDto dto) {
+		UserEntity user = findByIdOrThrow(id);
 
-	private void validateUser(CreateUserDto newUser) {
-		if (newUser.getUsername() == null || findUserByUsername(newUser.getUsername()).isPresent()) {
-			throw new UsernameAlreadyExistsException("El nombre de usuario ya está en uso");
+		validateUsernameAndEmailUniqueness(dto.getUsername(), dto.getEmail(), user.getId());
+
+		user.setDni(dto.getDni());
+		user.setName(dto.getName());
+		user.setUsername(dto.getUsername());
+		user.setFirstName(dto.getFirstName());
+		user.setLastName(dto.getLastName());
+		user.setEmail(dto.getEmail());
+		user.setPhone(dto.getPhone());
+		user.setFechaNacimiento(dto.getFechaNacimiento());
+		user.setRoles(dto.getRoles());
+		user.setAvatar(dto.getAvatar());
+		user.setPassword(dto.getPassword());
+		
+		if (dto.getPassword() != null && !dto.getPassword().isBlank()) {
+			user.setPassword(passwordEncoder.encode(dto.getPassword()));
 		}
 
-		if (!newUser.getPassword().equals(newUser.getPassword2())) {
-			throw new NewUserWithDifferentPasswordsException("Las contraseñas no coinciden");
-		}
-
-		if (newUser.getEmail() == null || newUser.getEmail().trim().isEmpty()) {
-			throw new IllegalArgumentException("El email no puede estar vacío");
-		}
-
-		if (existsByEmailIgnoreCase(newUser.getEmail())) {
-			throw new EmailAlreadyExistsException("El correo electrónico ya está en uso");
-		}
+		return save(user);
 	}
 
+	// -------------------- MÉTODOS PRIVADOS --------------------
+	
 	private void validateUsernameAndEmailUniqueness(String username, String email, Long currentUserId) {
 		findUserByUsername(username).ifPresent(user -> {
 			if (!user.getId().equals(currentUserId)) {
@@ -107,5 +101,4 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		UserEntity user = findByIdOrThrow(id); // Lanza excepción si no existe
 		delete(user);
 	}
-
 }

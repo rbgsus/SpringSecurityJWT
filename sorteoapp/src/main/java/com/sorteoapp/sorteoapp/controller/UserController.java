@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sorteoapp.sorteoapp.dto.AdminEditUserDto;
 import com.sorteoapp.sorteoapp.dto.CreateUserDto;
 import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
 import com.sorteoapp.sorteoapp.dto.GetUserPerfilDto;
@@ -63,38 +62,25 @@ public class UserController {
 		return ResponseEntity.status(HttpStatus.OK).body(res);
 	}
 
-	// Endpoint para obtener un usuario por su ID
-	@GetMapping("/id/{id}")
-	public ResponseEntity<GetuserDto> getUserByIdDto(@PathVariable Long id) {
-		UserEntity user = userEntityService.findByIdOrThrow(id);
-		GetuserDto userDto = userDtoConverter.converterEntityToGetUserDto(user);
-		return ResponseEntity.ok(userDto);
-	}
-//*************************************************************************************************************
-
-	// TODO: TOCA CREAR EL EDITAR PERFIL Y DESPUES COMPROBAR TODOS LOS CAMPOS Y
-	// DEPSPUES LAS EXCEPCIONES<
-	// Endpoint para editar un usuario como "guest"
 	@PutMapping("/edit")
-	public ResponseEntity<GetUserPerfilDto> editUserGuest(@Valid @RequestBody EditPerfilUserDto editPerfilUserDto) {
+	public ResponseEntity<GetUserPerfilDto> editUserAsUser(@Valid @RequestBody EditPerfilUserDto editPerfilUserDto) {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		UserEntity usuario = (UserEntity) auth.getPrincipal();
-		
+
 		UserEntity actualizado = userEntityService.updateUserAsUser(usuario.getId(), editPerfilUserDto);
-		
+
 		GetUserPerfilDto perfilDto = userPerfilDtoConverter.converterEntityTotUserPerfilDto(actualizado);
 		return ResponseEntity.ok(perfilDto);
 	}
 
-	// Endpoint para editar un usuario como "admin"
-	@PutMapping("/admin/edit/{id}")
-	public ResponseEntity<UserEntity> editUserAdmin(@PathVariable Long id,
-			@Valid @RequestBody AdminEditUserDto adminEditUserDto) {
-		UserEntity actualizado = userEntityService.updateUserAsAdmin(id, adminEditUserDto);
-		return ResponseEntity.ok(actualizado);
-	}
-
-	// Endpoint para eliminar un usuario por ID (solo ADMIN)
+	/*
+	 * Endpoint para eliminar un usuario por ID, ID que se obtendrá del propio token
+	 * y que debo pensar si eliminar el usuario, borrar solo el dni y el username
+	 * para que otro usuario pueda seleccionarlo , eliminar dni cambiando el nombre
+	 * por 'Usuario eliminado' u otra opción ya que hay unas tarjeta o artículos
+	 * asociados a un id y que hay que mantener un historial de ventas por cualquier
+	 * problema que pueda ocurrir
+	 */
 	@DeleteMapping("/{id}")
 	public ResponseEntity<?> deleteUserById(@PathVariable Long id) {
 		userEntityService.deleteUserById(id);
