@@ -3,10 +3,11 @@ package com.sorteoapp.sorteoapp.controller;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,23 +19,27 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.sorteoapp.sorteoapp.dto.AdminEditUserDto;
 import com.sorteoapp.sorteoapp.dto.CreateUserDto;
-import com.sorteoapp.sorteoapp.dto.EditUserDto;
+import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
+import com.sorteoapp.sorteoapp.dto.GetUserPerfilDto;
 import com.sorteoapp.sorteoapp.dto.GetuserDto;
 import com.sorteoapp.sorteoapp.dto.UserDtoConverter;
+import com.sorteoapp.sorteoapp.dto.UserPerfilDtoConverter;
 import com.sorteoapp.sorteoapp.model.UserEntity;
 import com.sorteoapp.sorteoapp.service.UserEntityService;
 
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("/user")
+@RequiredArgsConstructor
 public class UserController {
 
-	@Autowired
-	private UserEntityService userEntityService;
+	private final UserEntityService userEntityService;
 
-	@Autowired
-	private UserDtoConverter userDtoConverter;
+	private final UserDtoConverter userDtoConverter;
+
+	private final UserPerfilDtoConverter userPerfilDtoConverter;
 
 	// Endpoint para crear un usuario
 	@PostMapping("/")
@@ -46,8 +51,8 @@ public class UserController {
 
 	// Endpoint para obtener los datos del usuario autenticado
 	@GetMapping("/me")
-	public GetuserDto me(@AuthenticationPrincipal UserEntity userEntityloged) {
-		return userDtoConverter.converterEntityToGetUserDto(userEntityloged);
+	public GetUserPerfilDto me(@AuthenticationPrincipal UserEntity userEntityloged) {
+		return userPerfilDtoConverter.converterEntityTotUserPerfilDto(userEntityloged);
 	}
 
 	// Endpoint para obtener todos los usuarios
@@ -65,13 +70,20 @@ public class UserController {
 		GetuserDto userDto = userDtoConverter.converterEntityToGetUserDto(user);
 		return ResponseEntity.ok(userDto);
 	}
+//*************************************************************************************************************
 
+	// TODO: TOCA CREAR EL EDITAR PERFIL Y DESPUES COMPROBAR TODOS LOS CAMPOS Y
+	// DEPSPUES LAS EXCEPCIONES<
 	// Endpoint para editar un usuario como "guest"
-	@PutMapping("/edit/{id}")
-	public ResponseEntity<UserEntity> editUserGuest(@PathVariable Long id,
-			@Valid @RequestBody EditUserDto editUserDto) {
-		UserEntity actualizado = userEntityService.updateUserAsGuest(id, editUserDto);
-		return ResponseEntity.ok(actualizado);
+	@PutMapping("/edit")
+	public ResponseEntity<GetUserPerfilDto> editUserGuest(@Valid @RequestBody EditPerfilUserDto editPerfilUserDto) {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		UserEntity usuario = (UserEntity) auth.getPrincipal();
+		
+		UserEntity actualizado = userEntityService.updateUserAsUser(usuario.getId(), editPerfilUserDto);
+		
+		GetUserPerfilDto perfilDto = userPerfilDtoConverter.converterEntityTotUserPerfilDto(actualizado);
+		return ResponseEntity.ok(perfilDto);
 	}
 
 	// Endpoint para editar un usuario como "admin"

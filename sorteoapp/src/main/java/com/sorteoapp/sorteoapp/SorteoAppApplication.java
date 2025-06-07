@@ -11,5 +11,4 @@ public class SorteoAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SorteoAppApplication.class, args);
 	}
-
 }

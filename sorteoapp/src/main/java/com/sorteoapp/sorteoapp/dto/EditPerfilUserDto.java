@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class EditUserDto {
+public class EditPerfilUserDto {
 
 	private String dni;
 

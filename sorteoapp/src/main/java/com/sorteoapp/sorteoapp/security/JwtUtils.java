@@ -1,9 +1,11 @@
 package com.sorteoapp.sorteoapp.security;
 
-import java.security.Key;
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+
+import javax.crypto.SecretKey;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -12,14 +14,15 @@ import com.sorteoapp.sorteoapp.model.UserEntity;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 
 @Component
 public class JwtUtils {
 
-	private final Key secretKey = Keys.secretKeyFor(SignatureAlgorithm.HS256); // Se puede cambiar por una clave fija
+    private static final String SECRET = "P@sc4l_4l4n_Tur1nG!J0hnV0nN3um4nn#F3rm4t_Eul3r2025$"; // 32 caracteres mínimo para HS256
 
+    private final SecretKey secretKey = Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));
+	
 	private final long jwtExpirationMs = 86400000; // 1 día
 
 	public String extractUsername(String token) {
@@ -53,7 +56,6 @@ public class JwtUtils {
 		if (!(userDetails instanceof UserEntity user)) {
 			throw new IllegalArgumentException("UserDetails no es instancia de UserEntity");
 		}
-
 		return Jwts.builder().setSubject(String.valueOf(user.getId())) // ahora el subject es el ID
 				.setIssuedAt(new Date()).setExpiration(new Date(System.currentTimeMillis() + jwtExpirationMs))
 				.claim("username", user.getUsername())

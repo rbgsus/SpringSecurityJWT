@@ -44,14 +44,15 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers(HttpMethod.POST, "/cards/**").hasAnyRole("ADMIN", "USER")
                 .requestMatchers(HttpMethod.POST, "/user/**").permitAll()
-                .requestMatchers(HttpMethod.GET, "/user/all").hasRole("ADMIN")
+                .requestMatchers(HttpMethod.GET, "/user/all").permitAll()
                 .requestMatchers(HttpMethod.GET, "/cards/**").permitAll()
+                .requestMatchers(HttpMethod.GET, "/user/me**").hasAnyRole("ADMIN", "USER")
                 .requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
                 .requestMatchers(HttpMethod.PUT, "/card/**").hasRole("ADMIN")
 				// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
 				// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
 
-				.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("ADMIN")
+				.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("USER")
 				.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
 				.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
 				

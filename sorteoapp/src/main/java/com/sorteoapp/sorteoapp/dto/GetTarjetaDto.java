@@ -14,8 +14,8 @@ import lombok.NoArgsConstructor;
 public class GetTarjetaDto {
 
 	
-	private Long idUsuario;
 	private Long idTarjeta;
+	private String userName;
 	private String nombreTarjeta;
 	private String descripcion;
 	private Double precio;

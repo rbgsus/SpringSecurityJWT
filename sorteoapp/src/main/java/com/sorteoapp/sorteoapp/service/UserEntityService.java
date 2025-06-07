@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.sorteoapp.sorteoapp.dto.AdminEditUserDto;
 import com.sorteoapp.sorteoapp.dto.CreateUserDto;
-import com.sorteoapp.sorteoapp.dto.EditUserDto;
+import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
 import com.sorteoapp.sorteoapp.error.exceptions.EmailAlreadyExistsException;
 import com.sorteoapp.sorteoapp.error.exceptions.NewUserWithDifferentPasswordsException;
 import com.sorteoapp.sorteoapp.error.exceptions.UserNotFoundException;
@@ -43,19 +43,15 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		validateNewUser(newUser);
 
 		UserEntity userEntity = UserEntity.builder().name(newUser.getName()).username(newUser.getUsername())
-				.firstName(newUser.getFirstName())
-				.lastName(newUser.getLastName())
-				.password(passwordEncoder.encode(newUser.getPassword()))
-				.fechaNacimiento(newUser.getFechaNacimiento()).email(newUser.getEmail())
-				.avatar(newUser.getAvatar())
-				.roles(Set.of(UserRole.USER))
-				.build();
+				.firstName(newUser.getFirstName()).lastName(newUser.getLastName())
+				.password(passwordEncoder.encode(newUser.getPassword())).email(newUser.getEmail())
+				.avatar(newUser.getAvatar()).roles(Set.of(UserRole.USER)).build();
 
 		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());
 		return save(userEntity);
 	}
 
-	public UserEntity updateUserAsGuest(Long id, EditUserDto dto) {
+	public UserEntity updateUserAsUser(Long id, EditPerfilUserDto dto) {
 		UserEntity user = findByIdOrThrow(id);
 
 		validateUsernameAndEmailUniqueness(dto.getUsername(), dto.getEmail(), user.getId());
@@ -129,7 +125,7 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 			}
 		}
 	}
-	
+
 	public void deleteUserById(Long id) {
 		UserEntity user = findByIdOrThrow(id); // Lanza excepción si no existe
 		delete(user);

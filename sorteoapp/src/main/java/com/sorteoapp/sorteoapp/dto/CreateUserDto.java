@@ -1,9 +1,5 @@
 package com.sorteoapp.sorteoapp.dto;
 
-import java.time.LocalDate;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -45,10 +41,6 @@ public class CreateUserDto {
 	@NotBlank(message = "El campo de la contraseña no puede estar vacío")
 	@NotEmpty(message = "El campo de la contraseña no puede estar vacío")
 	private String password2;
-
-	@Builder.Default
-	@JsonFormat(pattern = "yyyy-MM-dd") // Formato para LocalDate
-	private LocalDate fechaNacimiento = LocalDate.now();
 	
 	private String avatar;
 
