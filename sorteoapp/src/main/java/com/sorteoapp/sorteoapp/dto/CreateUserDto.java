@@ -13,6 +13,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class CreateUserDto {
+	
+
+	private String dni;
 
 	// Creación de usuario con los campos obligatorios de UserEntity
 	@NotBlank(message = "El campo del nombre no puede estar vacío")

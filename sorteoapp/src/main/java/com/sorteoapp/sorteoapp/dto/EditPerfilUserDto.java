@@ -18,23 +18,24 @@ import lombok.NoArgsConstructor;
 @Builder
 public class EditPerfilUserDto {
 
+
 	private String dni;
 
-	@NotBlank(message = "El campo del nombre no puede estar vacío")
+	@NotBlank(message = "El campo del nombre no puede estar en blanco")
 	@NotEmpty(message = "El campo del nombre no puede estar vacío")
 	private String name;
 
-	@NotBlank(message = "El campo del nombre de usuario nick no puede estar vacío")
+	@NotBlank(message = "El campo del nombre de usuario nick no puede estar en blanco")
 	@NotEmpty(message = "El campo del nombre de usuario nick no puede estar vacío")
 	private String username;
 
-	@NotBlank(message = "El campo del primer apellido no puede estar vacío")
+	@NotBlank(message = "El campo del primer apellido no puede estar en blanco")
 	@NotEmpty(message = "El campo del primer apellido no puede estar vacío")
 	private String firstName;
 
 	private String lastName;
 
-	@NotBlank(message = "El campo del email no puede estar vacío")
+	@NotBlank(message = "El campo del email no puede estar en blanco")
 	@NotEmpty(message = "El campo del email no puede estar vacío")
 	@Email(message = "El email no está correctamente formado")
 	private String email;
