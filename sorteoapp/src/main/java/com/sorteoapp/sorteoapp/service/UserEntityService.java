@@ -5,11 +5,9 @@ import java.util.Set;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-import org.springframework.util.StringUtils;
 
 import com.sorteoapp.sorteoapp.dto.CreateUserDto;
 import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
-import com.sorteoapp.sorteoapp.error.exceptions.DNIAlreadyExistsException;
 import com.sorteoapp.sorteoapp.error.exceptions.EmailAlreadyExistsException;
 import com.sorteoapp.sorteoapp.error.exceptions.NewUserWithDifferentPasswordsException;
 import com.sorteoapp.sorteoapp.error.exceptions.UserNotFoundException;
@@ -26,11 +24,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class UserEntityService extends BaseService<UserEntity, Long, UserEntityRepository> {
 
-	private final PasswordEncoder passwordEncoder;
-
-	public boolean existByDni(String dni) {
-		return this.repositorio.existsByDni(dni);
-	}
+	private final PasswordEncoder passwordEncoder;	
 
 	public Optional<UserEntity> findUserByUsername(String username) {
 		return this.repositorio.findByUsername(username);
@@ -91,10 +85,6 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 
 		if (existsByEmailIgnoreCase(newUser.getEmail())) {
 			throw new EmailAlreadyExistsException("El correo electrónico ya está en uso");
-		}
-
-		if (!(StringUtils.hasText(newUser.getDni())) && (existByDni(newUser.getDni()))) {
-			throw new DNIAlreadyExistsException("El DNI ya está en uso");
 		}
 	}
 
