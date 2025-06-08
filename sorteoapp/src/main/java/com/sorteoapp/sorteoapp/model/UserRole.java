@@ -2,6 +2,6 @@ package com.sorteoapp.sorteoapp.model;
 
 public enum UserRole {
 	
-	USER, ADMIN
+	USER, ADMIN, GUEST
 
 }

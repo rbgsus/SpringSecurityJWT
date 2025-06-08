@@ -1,7 +1,5 @@
 package com.sorteoapp.sorteoapp.security.jwtmodel;
 
-import java.util.stream.Collectors;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -16,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.sorteoapp.sorteoapp.dto.GetuserDto;
 import com.sorteoapp.sorteoapp.dto.UserDtoConverter;
 import com.sorteoapp.sorteoapp.model.UserEntity;
-import com.sorteoapp.sorteoapp.model.UserRole;
 import com.sorteoapp.sorteoapp.security.JwtUtils;
 
 import jakarta.validation.Valid;
@@ -51,7 +48,7 @@ public class AuthenticationController {
 
 	private JwtUserResponse convertUserEntityAndTokenToJwtUserResponse(UserEntity user, String jwtToken) {
 		return JwtUserResponse.jwtUserResponseBuilder().username(user.getUsername()).avatar(user.getAvatar())
-				.email(user.getEmail()).roles(user.getRoles().stream().map(UserRole::name).collect(Collectors.toSet()))
+				
 				.token(jwtToken).build();
 	}
 

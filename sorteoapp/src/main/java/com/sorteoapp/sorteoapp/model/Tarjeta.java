@@ -1,5 +1,7 @@
 package com.sorteoapp.sorteoapp.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -34,8 +36,9 @@ public class Tarjeta {
 	@Enumerated(EnumType.STRING) // Se guarda como String en la BD
 	private Categoria categoria;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_usuario")
+	@JsonBackReference
 	private UserEntity usuario;
 
 }

@@ -1,5 +1,11 @@
 package com.sorteoapp.sorteoapp.dto;
 
+import java.time.LocalDate;
+import java.util.Set;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.sorteoapp.sorteoapp.model.UserRole;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -12,12 +18,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CreateUserDto {
-	
+public class AdminEditUserDto {
 
 	private String dni;
 
-	// Creación de usuario con los campos obligatorios de UserEntity
 	@NotBlank(message = "El campo del nombre no puede estar vacío")
 	@NotEmpty(message = "El campo del nombre no puede estar vacío")
 	private String name;
@@ -29,7 +33,7 @@ public class CreateUserDto {
 	@NotBlank(message = "El campo del primer apellido no puede estar vacío")
 	@NotEmpty(message = "El campo del primer apellido no puede estar vacío")
 	private String firstName;
-	
+
 	private String lastName;
 
 	@NotBlank(message = "El campo del email no puede estar vacío")
@@ -37,14 +41,15 @@ public class CreateUserDto {
 	@Email(message = "El email no está correctamente formado")
 	private String email;
 
-	@NotBlank(message = "El campo de la contraseña no puede estar vacío")
-	@NotEmpty(message = "El campo de la contraseña no puede estar vacío")
-	private String password;
+	private String phone;
 
-	@NotBlank(message = "El campo de la contraseña no puede estar vacío")
-	@NotEmpty(message = "El campo de la contraseña no puede estar vacío")
-	private String password2;
-	
+	@Builder.Default
+	@JsonFormat(pattern = "yyyy-MM-dd") // Formato para LocalDate
+	private LocalDate fechaNacimiento = LocalDate.now();
+
+	private Set<UserRole> roles;
+
 	private String avatar;
 
+	private String password;
 }
