@@ -42,24 +42,24 @@ public class SecurityConfig {
 				.sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 				.authorizeHttpRequests(auth -> auth.requestMatchers(HttpMethod.POST, "/cards/**")
 						.hasAnyRole("ADMIN", "USER").requestMatchers(HttpMethod.POST, "/user/**").permitAll()
-						.requestMatchers(HttpMethod.GET, "/user/all").permitAll()
-						.requestMatchers(HttpMethod.GET, "/cards/**").permitAll()
-						.requestMatchers(HttpMethod.GET, "/user/me**").hasAnyRole("ADMIN", "USER")
-						.requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
-						.requestMatchers(HttpMethod.PUT, "/card/**").hasRole("ADMIN")
-						// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
-						// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
-
-						.requestMatchers(HttpMethod.GET, "/categorias/**").hasAnyRole("ADMIN", "USER")
-
-						.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("USER")
-						.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
-						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
-
-						// CREAR METODO PARA QUE EL PROPIO USUARIO PUEDA BLOQUEAR Y SOLICITAR SU
-						// ELIMINACIÓN
-						// .requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("USER")
-						.anyRequest().denyAll());
+//						.requestMatchers(HttpMethod.GET, "/user/all").permitAll()
+//						.requestMatchers(HttpMethod.GET, "/cards/**").permitAll()
+//						.requestMatchers(HttpMethod.GET, "/user/me**").hasAnyRole("ADMIN", "USER")
+//						.requestMatchers(HttpMethod.POST, "/auth/login**").permitAll()
+//						.requestMatchers(HttpMethod.PUT, "/card/**").hasRole("ADMIN")
+//						// CREAR METODO QUE SOLO PUEDA EDITAR LA PROPIA TARJETA DEL USUARIO
+//						// .requestMatchers(HttpMethod.PUT, "/tarjeta/usuario/*").hasRole("USER")
+//
+//						.requestMatchers(HttpMethod.GET, "/categorias/**").hasAnyRole("ADMIN", "USER")
+//
+//						.requestMatchers(HttpMethod.PUT, "/user/edit/**").hasRole("USER")
+//						.requestMatchers(HttpMethod.DELETE, "/user/**").hasRole("ADMIN")
+//						.requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("ADMIN")
+//
+//						// CREAR METODO PARA QUE EL PROPIO USUARIO PUEDA BLOQUEAR Y SOLICITAR SU
+//						// ELIMINACIÓN
+//						// .requestMatchers(HttpMethod.DELETE, "/tarjeta/**").hasRole("USER")
+						.anyRequest().permitAll());
 
 		http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 

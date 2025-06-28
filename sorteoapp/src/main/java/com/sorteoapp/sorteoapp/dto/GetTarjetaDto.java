@@ -19,7 +19,7 @@ public class GetTarjetaDto {
 	private String nombreTarjeta;
 	private String descripcion;
 	private Double precio;
-	
-	// TODO: Poner las categorias en el yml para poder añadir, modificar y eliminar
 	private Categoria categoria;
+	
+	private String imagenBase64; 
 }

@@ -10,6 +10,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -35,6 +36,9 @@ public class Tarjeta {
 	// Se inicializa en vacío
 	@Enumerated(EnumType.STRING) // Se guarda como String en la BD
 	private Categoria categoria;
+	
+	@Lob // Indica que es un campo grande (puede ser texto largo o binario)
+	private String imagenBase64;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_usuario")
