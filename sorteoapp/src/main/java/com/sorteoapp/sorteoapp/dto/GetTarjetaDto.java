@@ -1,5 +1,7 @@
 package com.sorteoapp.sorteoapp.dto;
 
+import java.util.List;
+
 import com.sorteoapp.sorteoapp.model.Categoria;
 
 import lombok.AllArgsConstructor;
@@ -13,7 +15,6 @@ import lombok.NoArgsConstructor;
 @Builder
 public class GetTarjetaDto {
 
-	
 	private Long idTarjeta;
 	private String userName;
 	private String nombreTarjeta;
@@ -21,5 +22,5 @@ public class GetTarjetaDto {
 	private Double precio;
 	private Categoria categoria;
 	
-	private String imagenBase64; 
+	private List<GetImagenDto> imagenes;
 }

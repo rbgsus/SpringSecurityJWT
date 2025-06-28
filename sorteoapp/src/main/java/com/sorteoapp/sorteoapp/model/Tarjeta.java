@@ -1,7 +1,10 @@
 package com.sorteoapp.sorteoapp.model;
 
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -10,8 +13,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
@@ -34,11 +37,11 @@ public class Tarjeta {
 
 	// Lista de roles del usuario. Se guarda como conjunto de strings
 	// Se inicializa en vacío
-	@Enumerated(EnumType.STRING) // Se guarda como String en la BD
+	@Enumerated(EnumType.STRING)
 	private Categoria categoria;
 	
-	@Lob // Indica que es un campo grande (puede ser texto largo o binario)
-	private String imagenBase64;
+	@OneToMany(mappedBy = "tarjeta", cascade = CascadeType.ALL, orphanRemoval = true)
+	private List<Imagen> imagenes;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "id_usuario")

@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -18,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.sorteoapp.sorteoapp.dto.CrearTarjetaDto;
 import com.sorteoapp.sorteoapp.dto.GetTarjetaDto;
 import com.sorteoapp.sorteoapp.dto.TarjetaDtoConverter;
 import com.sorteoapp.sorteoapp.model.Tarjeta;
@@ -44,14 +46,34 @@ public class TarjetaController {
 	 * @return la tarjeta creada en forma de DTO.
 	 */
 	@PostMapping("/")
-	public ResponseEntity<GetTarjetaDto> nuevaTarjeta(@Valid @RequestBody Tarjeta tarjeta) {
+	public ResponseEntity<GetTarjetaDto> nuevaTarjeta(@Valid @RequestBody CrearTarjetaDto crearTarjetaDto) {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 		UserEntity usuario = (UserEntity) auth.getPrincipal();
 
-		tarjeta.setUsuario(usuario); // Asociar el usuario autenticado
+		// Crear la tarjeta base
+		Tarjeta tarjeta = tarjetaDtoConverter.converterCrearTarjetaDtoToTarjeta(crearTarjetaDto, usuario);
+
+		// Guardar la tarjeta (y las imágenes gracias al CascadeType.ALL)
 		tarjetaService.nuevaTarjeta(tarjeta);
+
+		// Convertir a DTO para la respuesta
 		GetTarjetaDto res = tarjetaDtoConverter.converterTarjetaToGetTarjetaDto(tarjeta);
 		return ResponseEntity.status(HttpStatus.CREATED).body(res);
+	}
+
+	@GetMapping("/my-cards")
+	public ResponseEntity<List<GetTarjetaDto>> obtenerTarjetasDelUsuario() {
+		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+		UserEntity usuario = (UserEntity) auth.getPrincipal();
+
+		Long idUsuario = usuario.getId(); // o getIdUsuario(), según tu entidad
+
+		List<Tarjeta> tarjetasUsuario = tarjetaService.findByUsuarioId(idUsuario);
+
+		List<GetTarjetaDto> tarjetasDto = tarjetasUsuario.stream()
+				.map(tarjetaDtoConverter::converterTarjetaToGetTarjetaDto).collect(Collectors.toList());
+
+		return ResponseEntity.ok(tarjetasDto);
 	}
 
 	/**
@@ -61,6 +83,7 @@ public class TarjetaController {
 	 * @return Lista de tarjetas en formato DTO.
 	 */
 	@GetMapping("/all")
+	@Transactional(readOnly = true)
 	public ResponseEntity<List<GetTarjetaDto>> obtenerTodasTarjetas2() {
 		List<Tarjeta> todasTarjetas = tarjetaService.findAll();
 
@@ -77,7 +100,8 @@ public class TarjetaController {
 	 * @param size Cantidad de elementos por página (por defecto 12)
 	 * @return Página de tarjetas en formato DTO.
 	 */
-	@GetMapping("/") // TODO: poner /all
+	@GetMapping("/")
+	@Transactional(readOnly = true)
 	public ResponseEntity<Page<GetTarjetaDto>> obtenerTodasTarjetas(@RequestParam(defaultValue = "0") int page,
 			@RequestParam(defaultValue = "12") int size) {
 
