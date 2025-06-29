@@ -3,6 +3,7 @@ package com.sorteoapp.sorteoapp.model;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
@@ -18,10 +19,16 @@ import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Data
+@Entity
 public class Tarjeta {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,6 +48,7 @@ public class Tarjeta {
 	private Categoria categoria;
 	
 	@OneToMany(mappedBy = "tarjeta", cascade = CascadeType.ALL, orphanRemoval = true)
+	@JsonManagedReference
 	private List<Imagen> imagenes;
 
 	@ManyToOne(fetch = FetchType.LAZY)
