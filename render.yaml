@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: sorteo-app
-    runtime: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
