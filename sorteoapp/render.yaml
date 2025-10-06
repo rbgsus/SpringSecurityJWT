@@ -15,4 +15,3 @@ services:
         value: ARV8b8suHHgnBcuAn1JY8uWV4aqwlhYR
       - key: JWT_SECRET
         value: P@sc4l_4l4n_Tur1nG!J0hnV0nN3um4nn#F3rm4t_Eul3r2025$
-
