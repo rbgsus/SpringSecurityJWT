@@ -23,7 +23,8 @@ public class JwtUtils {
     private final SecretKey secretKey;
     private final long jwtExpirationMs = 86400000; // 1 día
 
-    public JwtUtils(@Value("${JWT_SECRET}") String secret) {
+    
+    public JwtUtils(@Value("${spring.jwt.secret}") String secret) {
         this.secretKey = Keys.hmacShaKeyFor(secret.getBytes(StandardCharsets.UTF_8));
     }
 
