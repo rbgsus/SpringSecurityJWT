@@ -2,6 +2,8 @@ package com.sorteoapp.sorteoapp.service;
 
 import java.util.List;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
@@ -15,7 +17,9 @@ import lombok.RequiredArgsConstructor;
 @Service
 @Validated
 @RequiredArgsConstructor
-public class TarjetaService extends BaseService<Tarjeta, Long, TarjetaRepository> {
+public class TarjetaService {
+
+	private final TarjetaRepository tarjetaRepository;
 
 	@Transactional
 	public Tarjeta nuevaTarjeta(Tarjeta tarjeta) {
@@ -24,17 +28,21 @@ public class TarjetaService extends BaseService<Tarjeta, Long, TarjetaRepository
 		}
 
 		// Guardar la tarjeta
-		return save(tarjeta);
+		return tarjetaRepository.save(tarjeta);
 	}
 
 	@Transactional(readOnly = true)
 	public List<Tarjeta> findAll() {
-		return super.findAll();
+		return tarjetaRepository.findAll();
 	}
-	
-    @Transactional(readOnly = true)
+
+	@Transactional(readOnly = true)
 	public List<Tarjeta> findByUsuarioId(Long idUsuario) {
-	    return repositorio.findByUsuarioId(idUsuario);
+		return tarjetaRepository.findByUsuarioId(idUsuario);
+	}
+
+	public Page<Tarjeta> findAll(Pageable pageable) {
+		return tarjetaRepository.findAll(pageable);
 	}
 
 }
