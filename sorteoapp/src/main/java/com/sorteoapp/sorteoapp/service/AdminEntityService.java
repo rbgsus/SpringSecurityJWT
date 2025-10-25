@@ -19,24 +19,24 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntityRepository> {
+public class AdminEntityService {
+
+	private final AdminEntityRepository adminEntityRepository;
 
 	private final PasswordEncoder passwordEncoder;
 
 	public Optional<UserEntity> findUserByUsername(String username) {
-		return this.repositorio.findByUsername(username);
+		return adminEntityRepository.findByUsername(username);
 	}
 
 	public boolean existsByEmailIgnoreCase(String email) {
-		return this.repositorio.existsByEmailIgnoreCase(email);
+		return adminEntityRepository.existsByEmailIgnoreCase(email);
 	}
 
 	public UserEntity findByIdOrThrow(Long id) {
-		return findById(id).orElseThrow(() -> new UserNotFoundException(id));
+		return adminEntityRepository.findById(id).orElseThrow(() -> new UserNotFoundException(id));
 	}
 
-	
-	
 	// TODO: AQUI EMPIEZA LA TAREA DE PODER EDITAR TODO
 	public UserEntity updateUserAsUser(Long id, EditPerfilUserDto dto) {
 		UserEntity user = findByIdOrThrow(id);
@@ -53,7 +53,7 @@ public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntit
 		user.setFechaNacimiento(dto.getFechaNacimiento());
 		user.setAvatar(dto.getAvatar());
 
-		return save(user);
+		return adminEntityRepository.save(user);
 	}
 
 	public UserEntity updateUserAsAdmin(Long id, AdminEditUserDto dto) {
@@ -72,16 +72,16 @@ public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntit
 		user.setRoles(dto.getRoles());
 		user.setAvatar(dto.getAvatar());
 		user.setPassword(dto.getPassword());
-		
+
 		if (dto.getPassword() != null && !dto.getPassword().isBlank()) {
 			user.setPassword(passwordEncoder.encode(dto.getPassword()));
 		}
 
-		return save(user);
+		return adminEntityRepository.save(user);
 	}
 
 	// -------------------- MÉTODOS PRIVADOS --------------------
-	
+
 	private void validateUsernameAndEmailUniqueness(String username, String email, Long currentUserId) {
 		findUserByUsername(username).ifPresent(user -> {
 			if (!user.getId().equals(currentUserId)) {
@@ -90,7 +90,7 @@ public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntit
 		});
 
 		if (existsByEmailIgnoreCase(email)) {
-			UserEntity existingUser = repositorio.findByEmailIgnoreCase(email).orElse(null);
+			UserEntity existingUser = adminEntityRepository.findByEmailIgnoreCase(email).orElse(null);
 			if (existingUser != null && !existingUser.getId().equals(currentUserId)) {
 				throw new EmailAlreadyExistsException("El correo electrónico ya está en uso");
 			}
@@ -99,6 +99,6 @@ public class AdminEntityService extends BaseService<UserEntity, Long, AdminEntit
 
 	public void deleteUserById(Long id) {
 		UserEntity user = findByIdOrThrow(id); // Lanza excepción si no existe
-		delete(user);
+		adminEntityRepository.delete(user);
 	}
 }

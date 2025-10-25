@@ -1,5 +1,6 @@
 package com.sorteoapp.sorteoapp.service;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -22,20 +23,22 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-public class UserEntityService extends BaseService<UserEntity, Long, UserEntityRepository> {
+public class UserEntityService {
 
-	private final PasswordEncoder passwordEncoder;	
+	private final UserEntityRepository userEntityRepository;
+
+	private final PasswordEncoder passwordEncoder;
 
 	public Optional<UserEntity> findUserByUsername(String username) {
-		return this.repositorio.findByUsername(username);
+		return userEntityRepository.findByUsername(username);
 	}
 
 	public boolean existsByEmailIgnoreCase(String email) {
-		return this.repositorio.existsByEmailIgnoreCase(email);
+		return userEntityRepository.existsByEmailIgnoreCase(email);
 	}
 
 	public UserEntity findByIdOrThrow(Long id) {
-		return findById(id).orElseThrow(() -> new UserNotFoundException(id));
+		return userEntityRepository.findById(id).orElseThrow(() -> new UserNotFoundException(id));
 	}
 
 	public UserEntity registerUser(CreateUserDto newUser) {
@@ -47,7 +50,7 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 				.avatar(newUser.getAvatar()).roles(Set.of(UserRole.USER)).build();
 
 		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());
-		return save(userEntity);
+		return userEntityRepository.save(userEntity);
 	}
 
 	public UserEntity updateUserAsUser(Long id, EditPerfilUserDto dto) {
@@ -65,7 +68,7 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		user.setFechaNacimiento(dto.getFechaNacimiento());
 		user.setAvatar(dto.getAvatar());
 
-		return save(user);
+		return userEntityRepository.save(user);
 	}
 
 	// -------------------- MÉTODOS PRIVADOS --------------------
@@ -96,7 +99,7 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 		});
 
 		if (existsByEmailIgnoreCase(email)) {
-			UserEntity existingUser = repositorio.findByEmailIgnoreCase(email).orElse(null);
+			UserEntity existingUser = userEntityRepository.findByEmailIgnoreCase(email).orElse(null);
 			if (existingUser != null && !existingUser.getId().equals(currentUserId)) {
 				throw new EmailAlreadyExistsException("El correo electrónico ya está en uso");
 			}
@@ -105,7 +108,15 @@ public class UserEntityService extends BaseService<UserEntity, Long, UserEntityR
 
 	public void deleteUserById(Long id) {
 		UserEntity user = findByIdOrThrow(id); // Lanza excepción si no existe
-		delete(user);
+		userEntityRepository.delete(user);
+	}
+
+	public Optional<UserEntity> findById(Long id) {
+		return userEntityRepository.findById(id);
+	}
+
+	public List<UserEntity> findAll() {
+		return userEntityRepository.findAll();
 	}
 
 }
