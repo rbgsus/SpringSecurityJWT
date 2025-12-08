@@ -15,5 +15,5 @@ services:
         value: sorteoapp_jgkm_user
       - key: DB_PASSWORD
         value: NWn19qvZnhatIb0CMwnePdsUn2NiP7Aw
-      - key: JWT_SECRET
+      - key: spring.jwt.secret
         value: P@sc4l_4l4n_Tur1nG!J0hnV0nN3um4nn#F3rm4t_Eul3r2025$
