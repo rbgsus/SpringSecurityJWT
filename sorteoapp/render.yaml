@@ -12,7 +12,7 @@ services:
       - key: DB_URL
         value: postgresql://sorteoapp_jgkm_user:NWn19qvZnhatIb0CMwnePdsUn2NiP7Aw@dpg-d4rjpp4hg0os73ap1hq0-a/sorteoapp_db
       - key: DB_USERNAME
-        value: sorteoapp_jgkm_user
+        value: postgress
       - key: DB_PASSWORD
         value: NWn19qvZnhatIb0CMwnePdsUn2NiP7Aw
       - key: spring.jwt.secret
