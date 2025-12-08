@@ -12,8 +12,8 @@ services:
       - key: DB_URL
         value: jdbc:postgresql://dpg-d4rih16mcj7s738722c0-a.oregon-postgres.render.com:5432/sorteoapp_7ace
       - key: DB_USERNAME
-        value: postgres
+        value: sorteoapp_jgkm_user
       - key: DB_PASSWORD
-        value: yAXrPhqhelVLLFyRykR6GuLAny4Kd4sZ
+        value: u2nOWhCHXHdnG2OTh3HUKzLVIIdT0sa5
       - key: JWT_SECRET
         value: P@sc4l_4l4n_Tur1nG!J0hnV0nN3um4nn#F3rm4t_Eul3r2025$
