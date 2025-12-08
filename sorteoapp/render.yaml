@@ -10,10 +10,10 @@ services:
       - key: PORT
         value: 8080
       - key: DB_URL
-        value: postgresql://sorteoapp_jgkm_user:NWn19qvZnhatIb0CMwnePdsUn2NiP7Aw@dpg-d4rjpp4hg0os73ap1hq0-a/sorteoapp_db
+        value: jdbc:postgresql://dpg-d4rjpp4hg0os73ap1hq0-a.oregon-postgres.render.com:5432/sorteoapp_db
       - key: DB_USERNAME
         value: postgress
       - key: DB_PASSWORD
-        value: NWn19qvZnhatIb0CMwnePdsUn2NiP7Aw
-      - key: spring.jwt.secret
+        value: yI5spL80EEWtQaVE335WH0a1jRNYF52L
+      - key: JWT_SECRET
         value: P@sc4l_4l4n_Tur1nG!J0hnV0nN3um4nn#F3rm4t_Eul3r2025$
