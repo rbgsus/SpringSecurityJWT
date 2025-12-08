@@ -12,8 +12,10 @@ import com.sorteoapp.sorteoapp.error.exceptions.TarjetaInvalidaException;
 import com.sorteoapp.sorteoapp.model.Tarjeta;
 import com.sorteoapp.sorteoapp.repository.TarjetaRepository;
 
+import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 
+@Builder
 @Service
 @Validated
 @RequiredArgsConstructor

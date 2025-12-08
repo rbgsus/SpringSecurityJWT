@@ -10,8 +10,4 @@ public class TarjetaInvalidaException extends RuntimeException {
 		super(message);
 	}
 
-	public TarjetaInvalidaException() {
-		super();
-	}
-
 }

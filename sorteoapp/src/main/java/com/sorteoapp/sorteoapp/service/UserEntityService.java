@@ -2,19 +2,17 @@ package com.sorteoapp.sorteoapp.service;
 
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.sorteoapp.sorteoapp.dto.CreateUserDto;
+import com.sorteoapp.sorteoapp.dto.CreateUserDtoConverter;
 import com.sorteoapp.sorteoapp.dto.EditPerfilUserDto;
 import com.sorteoapp.sorteoapp.error.exceptions.EmailAlreadyExistsException;
 import com.sorteoapp.sorteoapp.error.exceptions.NewUserWithDifferentPasswordsException;
 import com.sorteoapp.sorteoapp.error.exceptions.UserNotFoundException;
 import com.sorteoapp.sorteoapp.error.exceptions.UsernameAlreadyExistsException;
 import com.sorteoapp.sorteoapp.model.UserEntity;
-import com.sorteoapp.sorteoapp.model.UserRole;
 import com.sorteoapp.sorteoapp.repository.UserEntityRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -27,7 +25,7 @@ public class UserEntityService {
 
 	private final UserEntityRepository userEntityRepository;
 
-	private final PasswordEncoder passwordEncoder;
+	private final CreateUserDtoConverter createUserToDtoConverter;
 
 	public Optional<UserEntity> findUserByUsername(String username) {
 		return userEntityRepository.findByUsername(username);
@@ -39,15 +37,12 @@ public class UserEntityService {
 
 	public UserEntity findByIdOrThrow(Long id) {
 		return userEntityRepository.findById(id).orElseThrow(() -> new UserNotFoundException(id));
-	}
+	} 
 
 	public UserEntity registerUser(CreateUserDto newUser) {
 		validateUser(newUser);
 
-		UserEntity userEntity = UserEntity.builder().name(newUser.getName()).username(newUser.getUsername())
-				.firstName(newUser.getFirstName()).lastName(newUser.getLastName())
-				.password(passwordEncoder.encode(newUser.getPassword())).email(newUser.getEmail())
-				.avatar(newUser.getAvatar()).roles(Set.of(UserRole.USER)).build();
+		UserEntity userEntity = createUserToDtoConverter.createUserToUserEntity(newUser);
 
 		log.info("Registrando nuevo usuario: {}", userEntity.getUsername());
 		return userEntityRepository.save(userEntity);

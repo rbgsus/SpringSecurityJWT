@@ -9,9 +9,7 @@ import com.sorteoapp.sorteoapp.model.Tarjeta;
 
 @Repository
 public interface TarjetaRepository extends JpaRepository<Tarjeta, Long> {
-
 	
 	List<Tarjeta> findByUsuarioId(Long idUsuario);
-
 	
 }
